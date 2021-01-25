@@ -3,7 +3,7 @@
 \include "../definitions.ly"
 
 \paper {
-  #(define (page-post-process layout pages) (ly:create-ref-file layout pages))
+  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
 #(set-global-staff-size 15.87)
@@ -14,8 +14,8 @@
 			number = "1"
 			title = "D O M I N E   A D   A D I U V A N D U M"
 		}
-		\paper { indent = 3\cm }
-		\tocLabel "dominead" "1" "Domine ad adiuvandum"
+		\paper { indent = 3\cm systems-per-page = #3 }
+		\tocSection "1" "Domine ad adiuvandum"
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -53,7 +53,7 @@
 				\new FiguredBass { \DomineAdBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 60 }
 		}
 	}
 	% \bookpart {

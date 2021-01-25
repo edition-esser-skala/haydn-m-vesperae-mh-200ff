@@ -672,8 +672,9 @@ tocLabelLong = #(define-music-function
 
 
 
-tempoDomineAd = \tempoMarkup "X"
+tempoDomineAd = \tempoMarkup "[Tempo deest]"
 
+lyleft = \override LyricText.self-alignment-X = #LEFT
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
