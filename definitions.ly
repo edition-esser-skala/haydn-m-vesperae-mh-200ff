@@ -673,6 +673,7 @@ tocLabelLong = #(define-music-function
 
 
 tempoDomineAd = \tempoMarkup "[Tempo deest]"
+tempoDixitDominus = \tempoMarkup "Allegro"
 
 lyleft = \override LyricText.self-alignment-X = #LEFT
 
