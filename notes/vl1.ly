@@ -159,6 +159,165 @@ DixitDominusViolinoI = {
 	}
 }
 
+ConfiteborViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoConfitebor
+		e'2\p d4
+		cis( h) a
+		d cis( h)
+		e8( a) gis( d) cis( e)
+		fis,4 r h~ %5
+		h cis e
+		d2( cis4)
+		h8 h\f d( cis) d( gis,)
+		a e'\p a( gis) a( gis)
+		a4 r r %10
+		r8 e a( gis) a( gis)
+		a4 r8 e-!\f a-! cis-!
+		d, d, r d h' gis'
+		a16 cis, fis d cis8 a' h, gis'
+		a, e cis16 d e fis e fis gis a %15
+		gis a h cis h cis d e d e fis gis
+		a8 e, cis16 d e fis e fis gis a
+		gis a h cis h cis d e d cis d h
+		a8 e cis16 d e fis e fis gis a
+		gis a h cis h cis d e d e fis gis %20
+		a8 e a,16 h cis d e fis gis a
+		fis8 fis fis fis fis fis
+		a16 gis a fis e8 e e e
+		d16 fis e fis d8 d cis cis
+		e16 cis h cis h8 h gis16 a h cis %25
+		h cis dis e dis e fis gis fis gis a fis
+		gis8 h, gis16 a h cis h cis dis e
+		dis e fis gis fis gis a h a gis a fis
+		gis fis e dis e dis cis h cis8 e
+		e16 dis e cis h4 gis'8 fis %30
+		e( dis) cis h a gis
+		cis a, r cis' cis cis
+		fis,16 a h cis h8 a gis e'
+		e16 gis, cis a gis8 gis fis fis
+		e h' gis16 a h cis h cis dis e %35
+		dis e fis gis fis gis a h a gis a fis
+		gis dis e h cis gis a fis h,8 dis'
+		e,4 r r
+		r8 h\p dis fis a4~
+		a8( gis) cis-! h-! e4~ %40
+		e8 dis a'4. a,8
+		\appoggiatura a gis4 fis8 dis-!\f e-! a-!
+		gis h\p e( dis) e( dis)
+		e4 r r
+		r8 e e( dis) e( dis) %45
+		e4 r8 h h h
+		h2.
+		his2 cis4~
+		cis8 a' gis fis e dis
+		cis a\f-! gis-! fis-! e-! dis-! %50
+		cis cis' e16 fis e d cis d cis h
+		ais8 fis16 g! fis8 e d cis
+		h fis'' d16 e cis d h cis a h
+		gis!8 e16 fis e8 d cis h
+		a a'16 h cis8 a fis a %55
+		cis, eis' eis eis eis eis
+		fis16 gis a fis cis8 cis cis cis
+		d4 cis cis8 cis
+		cis cis a16 gis a fis h a h fis
+		cis'8 cis, cis'16 d h cis a h gis a %60
+		fis4 cis'4. fis8
+		cis( d) cis4. fis8
+		cis d cis4. fis8
+		cis d cis4 fis~
+		fis8 e!16 fis d8 cis16 d h4~ %65
+		h8 a16 h cis4 cis8 cis
+		cis h a a gis gis
+		fis cis' a16 h cis d cis dis eis fis
+		eis fis gis a gis a h gis eis fis gis eis
+		fis8 a, h a16 h cis8 cis, %70
+		fis cis'\p \appoggiatura gis'16 fis8 eis16 fis a8 a
+		a r fis r dis r
+		r h \appoggiatura fis'16 e8 dis16 e g8 g
+		g r e r cis r
+		r a \appoggiatura e'16 d8 cis16 d fis8 d %75
+		h( g) d'( h) d( h)
+		a( fis') d( a) h( d)
+		a( a') g( e) e( g,)
+		fis d\f \appoggiatura g16 fis8 e16 d d'8 d
+		d r a r fis r %80
+		e(\p cis') d( a) fis( d)
+		e( cis') d( a) fis( d)
+		h h' \appoggiatura a g4. fis8
+		a a,\f \appoggiatura d16 cis8 h16 a a'8 a
+		a r e r cis r %85
+		d a'\p a a a d,
+		cis g' g g g e
+		fis g a( h) cis-! d-!
+		\appoggiatura cis h4 a8( fis') d( a)
+		g( e') cis( g) fis( a) %90
+		\once \stemUp h4.( ais8) h( ais)
+		h16( cis h cis) d8 h g16( a g a)
+		h8 g fis fis e e
+		d a'\f fis16 g a h a h cis d
+		cis d e fis e fis g a g a h cis %95
+		d8 a, fis16 g a h a h cis d
+		cis d e fis e fis g a g fis g e
+		fis a, a a fis' a, a a fis' a, a a
+		g' a, a a g' a, a a g' g, g g
+		g fis e g fis fis fis fis e' e e e %100
+		d8 fis, fis' fis16 fis fis8 fis
+		fis4. fis8 fis4
+		fis8 fis16 fis fis8 fis r g16 g
+		g8 g r cis,16 cis cis8 cis
+		h h, \appoggiatura e16 d8 cis16 h h'8 h %105
+		h r fis r d r
+		h4 r r
+		cis2\fz h'4\p
+		a! h cis~
+		cis8 h gis'4. h,8 %110
+		a cis \appoggiatura cis h4 a8 gis
+		a fis\f \appoggiatura h16 a8 gis16 fis fis'8 fis
+		fis r cis r a r
+		fis16\pE a cis a fis'8 fis fis fis
+		fis16 h, d h h'8 h h h %115
+		gis,16 e h' gis e'8 e e e
+		e16 a, cis a a'8 a a a
+		a4 r r
+		r8 e,\f \appoggiatura a16 gis8 fis16 e e'8 e
+		d r h r gis r %120
+		e'2\p d4
+		cis( h) a
+		d( cis) h
+		e8( a) gis( d) cis( e)
+		fis,4 r h~ %125
+		h cis e
+		d2( cis4)
+		h8 h\f d( cis) d( gis,)
+		a e' a( gis) a( gis)
+		a4 r r %130
+		r8 e\p a( gis) a( gis)
+		a4 r r
+		r8 e\f a( gis) a( gis)
+		a4 r8 e-! a-! cis-!
+		d, d, r d d' h' %135
+		cis,16 a' fis d cis8 a' h, gis'
+		a, e cis16 d e fis e fis gis a
+		gis a h cis h cis d e d e fis gis
+		a8 e, cis16 d e fis e fis gis a
+		gis a h cis h cis d e d cis d h %140
+		a8 e cis16 d e fis e fis gis a
+		gis a h cis h cis d e d e fis gis
+		a8 e a,16 h cis d e fis gis a
+		fis8 fis a16 gis a fis a gis a fis
+		d8 d gis16 fis gis d h' a h gis %145
+		a cis, d fis cis8 cis h h
+		a a, \appoggiatura d16 cis8 h16 a a'8 a
+		cis r a r fis r
+		\appoggiatura e16 d8 cis16 h e8 e e e
+		cis' r a r fis r %150
+		h16 d e fis cis a' cis, a' h, gis' h, gis'
+		a,4 r r\fermata \bar "|." %152 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

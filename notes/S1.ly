@@ -288,6 +288,232 @@ DixitDominusSopranoALyrics = \lyricmode {
 	men. %152 finis
 }
 
+ConfiteborSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \autoBeamOff \tempoConfitebor
+		r4 \mvTr a'\pE^\solo h
+		a( gis) a
+		d cis( h)
+		e4. d8 cis4
+		r8 h fis'([ d)] h([ a)] %5
+		gis([ h a cis)] h([ e)]
+		d2( cis4)\trill
+		h r r
+		r e e
+		e4. fis8 e fis %10
+		\appoggiatura fis16 e8([ d16 cis)] cis4 r
+		\mvTr e2.\fE^\tuttiE
+		d2 d4
+		cis8 d cis4( h)
+		a r r %15
+		R2.*3
+		r4 e' e
+		d4. h8 d4 %20
+		cis8. d16 e4 r
+		fis2 fis4
+		fis e8 e cis e
+		d d d4 cis
+		cis h r %25
+		R2.
+		h4 h h8 h
+		a4. a8 a a
+		gis8. a16 h4 cis8 cis
+		cis4 h gis'8 fis %30
+		e([ dis)] cis h a gis
+		cis2.~
+		cis4 h8 a gis4
+		gis8 a gis4( fis8.) e16
+		e4 r r %35
+		R2.*15 %50
+		r4 \mvTr e'\fE^\tutti e
+		e cis cis
+		d!8. cis16 d4 d8 d
+		d4 h2
+		e8.([ d16)] cis8 cis cis cis %55
+		eis4. eis8 eis eis
+		fis4 cis8 cis cis cis
+		d4 cis cis
+		cis8 cis cis4( h)
+		cis r r %60
+		r cis4. fis8
+		cis([ d)] cis4. fis8
+		cis d cis4. fis8
+		cis d cis4 fis~
+		fis8 e!16 fis d8 cis16 d h4~ %65
+		h8 a16([ h)] cis4 cis8 cis
+		cis h a4( gis8.) fis16
+		fis4 r r
+		R2.*27 %95
+		\mvTr d'2.\fE^\tutti
+		a2 r4
+		r a a
+		a8([ g')] g g g g,
+		g4 fis r %100
+		r8 fis fis' fis16 fis fis8 fis
+		fis4. fis8 fis4
+		fis2 g4~
+		g cis,4. cis8
+		h4 r r %105
+		R2.
+		r4 \mvTr fis'\pE^\solo fis
+		\appoggiatura fis8 eis4 eis2
+		fis8([ cis)] cis4 cis~
+		cis8[ h] d4 cis8 h %110
+		a cis \appoggiatura cis h4 a8 gis
+		a8.([ h16)] cis4 r
+		R2.
+		r4 r fis
+		fis8([ d)] d h d h %115
+		e2.~
+		e4 cis8([ e)] d([ fis)]
+		\appoggiatura fis4 e4. d8 cis4
+		cis8. h16 h4 r
+		R2. %120
+		r4 a8. a16 h4
+		a( gis) a
+		d cis h
+		e4. d8 cis4
+		r8 h([ fis' d)] h([ a)] %125
+		gis([ h)] a([ cis)] h[( e)]
+		d2( cis4)\trill
+		h r r
+		r e e
+		e4. fis8 e fis %130
+		\appoggiatura fis16 e8 d16([ cis)] cis4 e~
+		e e8([ fis)] e([ fis)]
+		\appoggiatura fis16 e8([ d16 cis)] cis4 r
+		\mvTr e2\fE^\tutti e4
+		d d8 d d d %135
+		cis d cis4( h)
+		a r r
+		R2.*3 %140
+		r4 e' e
+		d4.( h8) gis([ d')]
+		cis8.([ d16)] e4 r
+		fis fis r
+		d d r %145
+		cis8 d cis4( h)
+		a r r
+		r r cis
+		d cis( h)
+		cis r cis %150
+		d cis( h)
+		a r r\fermata \bar "|." %152 finis
+	}
+}
+
+ConfiteborSopranoALyrics = \lyricmode {
+	Con -- fi --
+	te -- bor
+	ti -- bi, __
+	Do -- mi -- ne,
+	in to -- to %5
+	cor -- de
+	me --
+	o,
+	in con --
+	si -- li -- o iu -- %10
+	sto -- rum,
+	et
+	con -- gre --
+	ga -- ti -- o --
+	ne. %15
+
+	Ma -- gna %19
+	o -- pe -- ra %20
+	Do -- mi -- ni:
+	Ex -- qui --
+	si -- ta in o -- mnes
+	vo -- lun -- ta -- tes
+	e -- ius. %25
+
+	Con -- fes -- si -- o
+	et ma -- gni -- fi --
+	cen -- ti -- a o -- pus
+	e -- ius, et iu -- %30
+	sti -- ti -- a e -- ius
+	ma --
+	net in sae --
+	cu -- lum sae -- cu --
+	li. %35
+
+	Me -- mor %51
+	e -- rit in
+	sae -- cu -- lum te -- sta --
+	men -- ti
+	su -- i. Vir -- tu -- tem %55
+	o -- pe -- rum su --
+	o -- rum an -- nun -- ti --
+	a -- bit po --
+	pu -- lo su --
+	o, %60
+	ut det
+	il -- lis hae --
+	re -- di -- ta -- tem
+	gen -- ti -- um. O --
+	pe -- ra ma -- nu -- um e -- %65
+	ius ve -- ri -- tas
+	et iu -- di -- ci --
+	um.
+
+	San -- %96
+	ctum
+	et ter --
+	ri -- bi -- le no -- men
+	e -- ius. %100
+	I -- ni -- ti -- um sa -- pi --
+	en -- ti -- ae
+	ti -- mor __
+	Do -- mi --
+	ni; %105
+
+	in -- tel --
+	le -- ctus
+	bo -- nus o --
+	_ mni -- bus %110
+	fa -- ci -- en -- ti -- bus
+	e -- um:
+
+	Lau --
+	da -- ti -- o e -- ius %115
+	ma --
+	net in
+	sae -- cu -- lum
+	sae -- cu -- li.
+	%120
+	Glo -- ri -- a
+	Pa -- tri,
+	Pa -- tri et
+	Fi -- li -- o
+	et __ Spi -- %125
+	ri -- tu -- i __
+	San --
+	cto,
+	si -- cut
+	e -- rat in prin -- %130
+	ci -- pi -- o et __
+	nunc et
+	sem -- per
+	et in
+	sae -- cu -- la sae -- cu -- %135
+	lo -- rum, a --
+	men,
+
+	a -- men, %141
+	a -- men,
+	a -- men,
+	a -- men,
+	a -- men, %145
+	a -- men, a --
+	men,
+	a --
+	men, a --
+	men, a -- %150
+	men, a --
+	men. %152 finis
+}
+
 % SopranoANotes = {
 % 	\relative c' {
 % 		\clef treble

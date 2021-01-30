@@ -360,6 +360,325 @@ DixitDominusBassFigures = \figuremode {
 	r2. %152 finis
 }
 
+ConfiteborOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 3/4 \tempoConfitebor
+		\mvTr a4\p-\solo cis d
+		e d cis
+		h e d
+		cis e a
+		d, r d'~ %5
+		d cis gis
+		r8 gis( a gis) a dis,
+		e h'\fE d!( cis) d( gis,)
+		a4 r r
+		r8 a,\p a'( gis) a( gis) %10
+		a4 r r
+		r8 \mvTr a,\f-\tutti a'( gis) a( gis)
+		fis-! fis-! gis( fis) gis( e)
+		a d, e( d) e e
+		a,4 r r %15
+		e' r r
+		a r a
+		e r e
+		a, r a'
+		e r e %20
+		a,8 a' a a a a
+		a, a' a a a a
+		a, a' a a a a
+		a a gis gis a a
+		e4 e r %25
+		h r r
+		e r e
+		h r h
+		e8 e e e cis a
+		e'4 e \clef treble << {
+			gis''8 fis %30
+			e[ dis cis h]
+		} \\ {
+			e dis %30
+			cis[ h a gis]
+		} >> \clef bass e, e
+		cis dis e fis gis a
+		dis,4 dis8 dis e dis
+		cis a h h h h
+		e4 r e-\solo %35
+		h r h
+		e8 gis a fis h h,
+		e4 r8 e\p gis e
+		h4 r8 h cis dis
+		e4 r8 e gis e %40
+		fis4 h, dis
+		e h8 a'\f gis fis
+		e4 r r
+		r8 e\p e'( dis) e( dis)
+		e4 r r %45
+		r8 e, e'( dis) e( dis)
+		e4 r e,
+		dis8 gis, gis' fis e cis
+		a' fis gis4 gis
+		cis,8 a'-!\f gis-! fis-! e-! dis-! %50
+		cis4 r cis-\tutti
+		fis8 fis16 g fis8 e d! cis
+		h4 r h
+		e8 e16 fis e8 d cis h
+		a a'16 h cis8 a fis a %55
+		cis, cis cis cis h h
+		a a a a' gis fis
+		eis eis eis eis fis fis
+		e e d d d d
+		cis4 cis'8 h a gis %60
+		fis4 r fis~
+		fis8 eis fis gis fis4~
+		fis8 eis fis gis fis4~
+		fis8 eis fis gis fis4
+		h4. a16 h gis8 fis16 gis %65
+		eis4. dis16 eis cis8 dis16 eis
+		fis8 h, cis cis cis cis
+		fis,4 r fis'-\solo
+		cis r h
+		a8 a' h a16 h cis8 cis, %70
+		fis4 r fis\p
+		h, r h'
+		e, r e
+		a, r a'
+		d, r8 fis d fis %75
+		g4 g, g'
+		fis fis g
+		fis e a,
+		d8 d\f \appoggiatura g16 fis8 e16 d d'8 d
+		d r a r fis r %80
+		g4\p fis d
+		g fis d
+		g, g' gis
+		a r8 a,\f \appoggiatura d16 cis8 h16 a
+		a'8[ a] a r g r %85
+		fis4\p r fis
+		e cis a'
+		d, r d
+		g, d'8 d fis d
+		e cis a cis d fis %90
+		g g, g' fis g fis
+		g4 r g
+		e a a,
+		d\f r r
+		a r r %95
+		d-\tutti r d'
+		a r a
+		d,8 d d d d d
+		cis cis cis cis h h
+		ais ais ais ais ais ais %100
+		h4 \clef treble fis'''8 fis16 fis fis8 fis
+		fis \noBeam \clef bass h,,, h' h16 h h8 h
+		h h,16 h h8 h r e16 e
+		e8 e r fis16 fis fis8 fis
+		h, h \appoggiatura e16 d8-\solo cis16 h h'8 h %105
+		h r fis r d r
+		h4 r r
+		\mvTr cis2.~\fz-\tasto
+		cis~\p
+		cis %110
+		fis4 h cis
+		r8 fis,\f \appoggiatura h16 a8 gis16 fis fis'8 fis
+		fis r cis r a r
+		fis4\p r fis
+		h, r h' %115
+		e, r e
+		a, r r
+		a cis d
+		e8 e\f \appoggiatura a16 gis8 fis16 e e'8 e
+		d r h r gis r %120
+		a4 cis,\p d
+		e d cis
+		h e d
+		cis e a
+		d, r d'~ %125
+		d cis gis
+		r8 gis a( gis) a( dis,)
+		e h'\fE d!( cis) d( gis,)
+		a4 r r
+		r8 a,\p a'( gis) a( gis) %130
+		a4 r r
+		r8 a, a'( gis) a( gis)
+		a4 r r
+		r8 \mvTr a,\f-\tutti a'( gis) a( gis)
+		fis fis gis( fis) gis( e) %135
+		a d, e( d) e e
+		a,4 r r
+		e' r r
+		a r a
+		e r e %140
+		a, r a'
+		e r e
+		a8 a, a a a a
+		d' d, d d d d
+		e' e, e e e e %145
+		a d, e e e e
+		a, a \appoggiatura d16 cis8 h16 a a'8 a
+		cis r a r fis r
+		\appoggiatura e16 d8 cis16 h e8 e e e
+		cis' r a r fis r %150
+		\appoggiatura e16 d8 cis16 h e8 e e e
+		a,4 r r\fermata \bar "|." %152 finis
+	}
+}
+
+ConfiteborBassFigures = \figuremode {
+	r4 <6> \bo <[6 \l]>
+	<6 4> <2> <6>
+	r <6 4> <2>
+	\bc <[6 \l]>2.
+	<6> %5
+	\bo <[2]>4 <6> \bc <[6]>
+	<6 5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <3> <\t>
+	<5>2.
+	r
+	r4. <7>4 q8 %10
+	r2.
+	r
+	<6 5>4 q2
+	r8 <6> <6 4>4 <[5] 3>
+	r2. %15
+	r
+	r
+	r
+	r
+	<7> %20
+	r
+	<6 4>
+	<\t \t>4 <[5] 3>2
+	<2>4 <6 5>2
+	<6 4>4 <[5] 3>2 %25
+	<_+>2.
+	r
+	<7 _+>
+	r2 <6>4
+	\bo <[6 4]> \bc <[5 3]>2 %30
+	r <9 4>8 <[8] 3>
+	<6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<7>4 <6 4>8 <5 3> r <\t>
+	r <6> <6 4>4 <[5] _+>
+	r2. %35
+	<_+>
+	r4 <6 5> <_+>
+	r2.
+	<4>8 <_+> r4 <6>
+	<4>8 <3> r2 %40
+	<7>8 <6\\> \bo <[7 _+]>4 \bc <[6 5]>
+	<9 4>8 <[8] 3> <_+> <\t> <6> <6\\>
+	r2.
+	<6 4>4 <[5] 3>2
+	r2. %45
+	<6 4>4 <[5] 3>2
+	r2.
+	<6\\>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>4
+	r <8 6>8 <7 5+> <6 4> <[5] _+>
+	r2. %50
+	r
+	<_+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	r2.
+	r
+	r4 <6> <5> %55
+	<_+>2 <\t>4
+	<6>2.
+	<7>4 <6 5>2
+	<6>4 <7> <6>
+	<_+>2. %60
+	r
+	r8 <7>4 <6\\>8 r4
+	r8 <7>4 <6\\>8 r4
+	r8 <7>4 <6\\>8 r4
+	r2 <5>8 <\t> %65
+	<7> <6> r4 <[_+]>
+	r8 <6> <6 4>4 <[5] _+>
+	r2.
+	<_+>2 <\t>4
+	<6> <6 5> <_+> %70
+	r2.
+	<7 _+>
+	<_!>
+	<7!>
+	r %75
+	r
+	<6>
+	q4 <7 _!> <[7!]>
+	r2.
+	r %80
+	<2>4 <6>2
+	<2>4 <6>2
+	<9 7>4 <\t \t>8 <8 6> <\t \t> <7>
+	<6 4>4 <[5] 3>2
+	r2 <2>4 %85
+	<6>2.
+	<6 _!>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	r2.
+	r2 <[6]>4
+	<6 _!>2. %90
+	r4. <10+>4 q8
+	r2 <6>4
+	<_!> <6 4> <[5] _+>
+	r2.
+	r %95
+	r
+	r
+	r
+	<6 5!>2 <6! 4>4
+	<7!> <6 5>2 %100
+	r2.
+	r
+	r2 r8 <_!>
+	<\t>4 <5 4> <\t _+>
+	r2. %105
+	r
+	r
+	r
+	r
+	r %110
+	<5>4 <9 7>8 <8 6> <6 4> <[5] _+>
+	r2.
+	r2 <6>4
+	r2.
+	r %115
+	<[7]>
+	r
+	<6 4>4 <6> <7>
+	<6 4> <[6]>2
+	r2. %120
+	r4 <6> q
+	<6 4> <2> <6>
+	r <6 4> <2>
+	<6>2.
+	<6>2 <\t>4 %125
+	<2> <6> q
+	<6 5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <3> <\t>
+	<5>2.
+	r
+	r4. <7>4 q8 %130
+	r2.
+	r4. <7>4 q8
+	r2.
+	r
+	<6 5>4 q2 %135
+	r8 <6> <6 4>4 <[5] 3>
+	r2.
+	r
+	r
+	r %140
+	r
+	<7>
+	r
+	r
+	<7> %145
+	r8 <6> <6 4>4 <[5] 3>
+	r2.
+	<6>2 <5>4
+	<6> <6 4> <[5] 3>
+	<6>2 <5>4 %150
+	<6> <6 4> <[5] 3>
+	r2. %152 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

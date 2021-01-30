@@ -263,3 +263,224 @@ DixitDominusSopranoBLyrics = \lyricmode {
 	men, a -- men, a --
 	men. %152 finis
 }
+
+ConfiteborSopranoBNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \autoBeamOff \tempoConfitebor
+		R2.*8 %8
+		r4 \mvTr cis'\pE^\solo cis
+		cis4. d8 cis d %10
+		\appoggiatura d cis8([ h16 a)] a4 r
+		\mvTr cis2.~\fE^\tutti
+		cis4 h4. h8
+		a h a4( gis)
+		a r r %15
+		R2.*3
+		r4 cis cis
+		h4. gis8 h4 %20
+		a8. h16 cis4 r
+		d2 d4
+		d cis8 cis a cis
+		h h h4 a
+		a gis r %25
+		R2.
+		gis4 gis gis8 gis
+		fis4. fis8 fis fis
+		e8. fis16 gis4 a8 a
+		a4 gis e'8 dis %30
+		cis([ h)] a gis fis e
+		a2.~
+		a4 gis8 fis e4
+		e8 fis e4( dis8.) e16
+		e4 r r %35
+		R2.*2
+		r4 \mvTr h'\pE^\solo e~
+		e8[ dis] cis h a4~
+		a8[ gis] cis([ h)] e4~ %40
+		e8 dis fis dis h a
+		\appoggiatura a8 gis4 fis r
+		r gis( cis)
+		\appoggiatura cis h4. a8 gis4
+		h8([ gis)] e' dis e cis %45
+		\appoggiatura cis4 h4. a8 gis4
+		r h h
+		his2 cis4~
+		cis8 fis e([ dis)] cis his
+		cis4 r r %50
+		r \mvTr cis\fE^\tuttiE cis
+		cis ais ais
+		h8. ais16 h4 h8 h
+		h4 gis!2
+		cis8.([ h16)] a8 a a a %55
+		gis4. gis8 gis gis
+		cis([ a)] fis cis' h a
+		gis4 gis a
+		gis8 gis fis2
+		eis4 r r %60
+		r r a~
+		a8 gis a([ h)] a4~
+		a8 gis a h a4~
+		a8 gis a h a4
+		fis4. fis16 fis h8 a16 h %65
+		gis4. fis16([ gis)] eis8 fis16 gis
+		a8 gis fis4( eis8.) fis16
+		fis4 r r
+		R2.*27 %95
+		\mvTr d'2.\fE^\tutti
+		a2 r4
+		r fis fis
+		e8([ e')] e e e e,
+		e4 e r %100
+		R2.
+		r8 d d' d16 d d8 d
+		d4 d8 d h4
+		h h ais
+		h r r %105
+		R2.
+		r4 \mvTr d\pE^\solo d
+		d( cis) h
+		cis( h) a
+		a8([ gis] h4) a8 gis %110
+		fis a \appoggiatura a gis4 fis8 eis
+		fis4 fis r
+		r r cis'
+		cis8([ a]) a fis a fis
+		d'2.~ %115
+		d
+		cis4 a8([ cis)] h([ d)]
+		\appoggiatura d4 cis4. h8 a4
+		a8. gis16 gis4 r
+		R2.*9 %128
+		r4 cis cis
+		cis4. d8 cis d %130
+		\appoggiatura d16 cis8 h16([ a)] a4 cis~
+		cis cis8([ d)] cis([ d)]
+		\appoggiatura d16 cis8([ h16 a)] a4 r
+		\mvTr cis2\fE^\tutti cis4
+		cis h8 a h gis %135
+		a h a4( gis)
+		a r r
+		R2.*3 %140
+		r4 cis cis
+		h4.( gis8) e([ h')]
+		a8.([ h16)] cis4 r
+		d d r
+		h h r %145
+		a8 h a4( gis)
+		a r r
+		r r a
+		h a( gis)
+		a r a %150
+		h a( gis)
+		a r r\fermata \bar "|." %152 finis
+	}
+}
+
+ConfiteborSopranoBLyrics = \lyricmode {
+	In con -- %9
+	si -- li -- o iu -- %10
+	sto -- rum,
+	et __
+	con -- gre --
+	ga -- ti -- o --
+	ne. %15
+
+	Ma -- gna %19
+	o -- pe -- ra %20
+	Do -- mi -- ni:
+	Ex -- qui --
+	si -- ta in o -- mnes
+	vo -- lun -- ta -- tes
+	e -- ius. %25
+
+	Con -- fes -- si -- o
+	et ma -- gni -- fi --
+	cen -- ti -- a o -- pus
+	e -- ius, et iu -- %30
+	sti -- ti -- a e -- ius
+	ma --
+	net in sae --
+	cu -- lum sae -- cu --
+	li. %35
+
+	Me -- mo -- %38
+	ri -- am fe --
+	cit mi -- %40
+	ra -- bi -- li -- um su --
+	o -- rum,
+	mi --
+	se -- ri -- cors
+	et mi -- se -- ra -- tor %45
+	Do -- mi -- nus.
+	E -- scam
+	de -- dit __
+	ti -- men -- ti -- bus
+	se;
+	me -- mor %51
+	e -- rit in
+	sae -- cu -- lum te -- sta --
+	men -- ti
+	su -- i. Vir -- tu -- tem %55
+	o -- pe -- rum su --
+	o -- rum an -- nun -- ti --
+	a -- bit po --
+	pu -- lo su --
+	o, %60
+	ut __
+	det il -- lis __
+	hae -- re -- di -- ta --
+	tem gen -- ti -- um.
+	O -- pe -- ra ma -- nu -- um %65
+	e -- ius ve -- ri -- tas
+	et iu -- di -- ci --
+	um.
+
+	San -- %96
+	ctum
+	et ter --
+	ri -- bi -- le no -- men
+	e -- ius. %100
+
+	I -- ni -- ti -- um sa -- pi --
+	en -- ti -- ae ti --
+	mor Do -- mi --
+	ni; %105
+
+	in -- tel --
+	le -- ctus
+	bo -- nus
+	o -- mni -- bus %110
+	fa -- ci -- en -- ti -- bus
+	e -- um:
+	Lau --
+	da -- ti -- o e -- ius
+	ma -- %115
+
+	_ net in
+	sae -- cu -- lum
+	sae -- cu -- li.
+
+	Si -- cut %129
+	e -- rat in prin -- %130
+	ci -- pi -- o et __
+	nunc et
+	sem -- per
+	et in
+	sae -- cu -- la sae -- cu -- %135
+	lo -- rum, a --
+	men,
+
+	a -- men, %141
+	a -- men,
+	a -- men,
+	a -- men,
+	a -- men, %145
+	a -- men, a --
+	men,
+	a --
+	men, a --
+	men, a -- %150
+	men, a --
+	men. %152 finis
+}

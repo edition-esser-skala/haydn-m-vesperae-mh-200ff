@@ -56,13 +56,67 @@
 	% 		\midi { \tempo 2 = 60 }
 	% 	}
 	% }
-	\bookpart {
+	% \bookpart {
+	% 	\header {
+	% 		number = "2"
+	% 		title = "D I X I T   D O M I N U S"
+	% 	}
+  %   \paper { systems-per-page = #2 }
+	% 	\tocSection "2" "Dixit Dominus"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\DixitDominusViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\DixitDominusViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S 1"
+	% 					\new Voice = "SopranoA" { \dynamicUp \DixitDominusSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \DixitDominusSopranoALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoB" { \dynamicUp \DixitDominusSopranoBNotes }
+  %         }
+  %         \new Lyrics \lyricsto SopranoB \DixitDominusSopranoBLyrics
+  %
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \DixitDominusAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \DixitDominusAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\DixitDominusOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \DixitDominusBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 90 }
+	% 	}
+	% }
+  \bookpart {
 		\header {
-			number = "2"
-			title = "D I X I T   D O M I N U S"
+			number = "3"
+			title = "C O N F I T E B O R"
 		}
     \paper { systems-per-page = #2 }
-		\tocSection "2" "Dixit Dominus"
+		\tocSection "3" "Confitebor"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -70,44 +124,44 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\DixitDominusViolinoI
+							\ConfiteborViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\DixitDominusViolinoII
+							\ConfiteborViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S 1"
-						\new Voice = "SopranoA" { \dynamicUp \DixitDominusSopranoANotes }
+						\new Voice = "SopranoA" { \dynamicUp \ConfiteborSopranoANotes }
 					}
-					\new Lyrics \lyricsto SopranoA \DixitDominusSopranoALyrics
+					\new Lyrics \lyricsto SopranoA \ConfiteborSopranoALyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoB" { \dynamicUp \DixitDominusSopranoBNotes }
+            \new Voice = "SopranoB" { \dynamicUp \ConfiteborSopranoBNotes }
           }
-          \new Lyrics \lyricsto SopranoB \DixitDominusSopranoBLyrics
+          \new Lyrics \lyricsto SopranoB \ConfiteborSopranoBLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \DixitDominusAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \ConfiteborAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DixitDominusAltoLyrics
+					\new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\DixitDominusOrgano
+						\ConfiteborOrgano
 					}
 				>>
-				\new FiguredBass { \DixitDominusBassFigures }
+				\new FiguredBass { \ConfiteborBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 105 }
 		}
 	}
 }
