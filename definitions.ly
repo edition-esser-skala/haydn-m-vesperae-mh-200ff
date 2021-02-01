@@ -675,6 +675,7 @@ tempoDomineAd = \tempoMarkup "[Tempo deest]"
 tempoDixitDominus = \tempoMarkup "Allegro"
 tempoConfitebor = \tempoMarkup "Allegro moderato"
 tempoBeatus = \tempoMarkup "Vivace assai"
+tempoDeProfundis = \tempoMarkup "Allegretto"
 
 lyleft = \override LyricText.self-alignment-X = #LEFT
 

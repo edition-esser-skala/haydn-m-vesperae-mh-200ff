@@ -412,6 +412,122 @@ BeatusViolinoI = {
 	}
 }
 
+DeProfundisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 6/8 \tempoDeProfundis
+		es8\p es es es es es
+		es g as b as g
+		c4. d
+		es8 g,(\f b) es es,( g)
+		b, b'\p b b,\f d'\p d %5
+		es( d c) b( f') as,
+		g( b) as g4( f8)
+		es es'(\f b) g( es) b
+		es16(\p g b es) g( b,) es8 r r
+		es,16( g b es) g( b,) es8 r r %10
+		es,16( g b g) es'( c) \once \slurDashed b4( as8)
+		g8-! es-! g-! c4.
+		\appoggiatura c8 h4 h8 h( g') f
+		es es es es( g) es
+		d d d d( es) d %15
+		d4 c8 f,\f c' es,!
+		des b'16 f des' b f'8 f f
+		f( es) es ges( f es)
+		des b16 f des' b f'8 f f
+		ges r r ges es es %20
+		des b'-! b-! b-! b-! b-!
+		b-! des, b e, des' e,
+		f a c f r r
+		f,4\p d!8 b'( a g)
+		g4( f8) f'16( es) c( a) f( es) %25
+		d8( f) es d d' b
+		b4( a8) es16( c) a'( es) c'( a)
+		es'8( c) a c( a) es
+		f4( es8) d( b') as
+		g a h c( es) c %30
+		b b b <a es>\fz q q
+		<b d,> d16(\f b) g'( f) f( c) es( a,) c( es,)
+		d( f) d'( b) g'( f) f( c) es( a,) c( a')
+		b( f) d( f) es( g) b,4( \grace d16 c8)
+		b r16 b-! d-! g,-! fis-! es!-! d-! c-! b-! a-! %35
+		\kneeBeam g8 d''\p b g a b
+		c4. fis
+		a~ a8 d,, c'
+		b r g16 fis g8 d b
+		g b d g b d %40
+		es4.~ es8 d c
+		c( a) d b( g) cis,
+		d\f fis a d16( a) fis-! a-! fis-! a-!
+		g8 b' g, a16( c) es-! c-! a-! g-!
+		fis8 a' fis, g16( d) g-! b-! g-! f-! %45
+		e8 g' e, fis16( a) d-! a'-! a,-! c-!
+		b( d) b-! a-! g-! fis-! g( b) g-! f-! es-! d-!
+		cis( g) b-! a-! b-! g-! b'( g) b'-! a-! b-! g-!
+		<fis a,>8 q q q q q
+		g16( b) g-! fis-! g-! d-! c( es) c-! b-! c-! a-! %50
+		b8 b b a a a
+		g b16( g) es'( d) \once \slurDashed d( a) fis( a) d,( c)
+		b( d) b'( g) es'( d) d( a) fis( a) fis'( d)
+		g( d) b( d) c( es) g,4( \grace b16 a8)
+		g r16 g-! f!-! as!-! g f es d c h %55
+		c8 es-!\p f-! g-! f-! es-!
+		r h' c d c h
+		c4. c'
+		h8 g g g g, g
+		g es f g h c %60
+		as c c c as as
+		g c c c g g
+		f4. h
+		c8 h c c( as) f
+		es es es d\fz d d %65
+		c r e\p f( c) as'
+		\appoggiatura es d4 fis8 g b! g
+		\appoggiatura f es4 g8 as( es) c'
+		b,16(\f d) f-! d-! as'-! f-! as( f) d-! b-! f'-! as,-!
+		g8-! es'-!\p g-! b-! g-! es-! %70
+		es' b' b b b, b
+		c c' c c c, c
+		c16( d es d es c) b( c b as g b)
+		as4. f'~
+		f8 es d c b as %75
+		g g' f es16( c) b( d) c( a)
+		b8 b' b b b b
+		b r b,,\f as' f d
+		es es\p es es es es
+		es g as b as g %80
+		c4. d
+		es8 g,(\f b) es es,( g)
+		b,\p b' b b, as' as
+		g r es d16(\fz es) as( g) c( b)
+		b8\p f' f f, as as %85
+		g r es d16(\fz es) as( g) c( b)
+		b8\p f' f f16\f es d c b as
+		g8 g' g g16 es d c b a
+		b as'! b, as' b, as' b, g' b, g' b, g'
+		f8 es d c b as %90
+		g b as g4( f8)
+		es g'16-! es-! g( b,) a( c) es-! c-! es( a,)
+		b8 b, r b(\p as' f)
+		f4( g8) es'( d c)
+		b16( c b g) c( as) g4( f8) %95
+		es g'16-!\f es-! g( b,) a( c) es-! c-! es( a,)
+		b8 b, r d(\p as' f)
+		f4( g8) b'( g des)
+		c-! d-! e?-! f( as) f
+		es es es d\fz d d %100
+		es g,16(\p es) c'( b) b( f) as( d,) f( as,)
+		g( b) g'( es) c'( b) b( f) as( d,) f( d')
+		es( b) g( b) as( c) es,4( \grace g16 f8)
+		es g16(\f es) c'( b) b( f) as( d,) f( as,)
+		g( b) g'( es) c'( b) b( f) as( d,) f'( d) %105
+		es( b) g( b) as( c) es,4( \grace g16 f8)
+		es es'-! es-! b-! b'-! b-!
+		es,-! es, es b b' b
+		es, r r r4 r8\fermata \bar "|." %109 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

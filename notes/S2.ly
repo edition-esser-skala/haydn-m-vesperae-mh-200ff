@@ -632,3 +632,144 @@ BeatusSopranoBLyrics = \lyricmode {
 	men, a -- men, a --
 	men, a -- men. %87 finis
 }
+
+DeProfundisSopranoBNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 6/8 \autoBeamOff \tempoDeProfundis
+		R2.*8 %8
+		\mvTr g'4\pE^\solo g8 g([ b)] as
+		g4.~ g8[ b] as %10
+		g([ es)] as g4( f8)
+		es r r es4.
+		\appoggiatura es8 d4 d8 g([ h)] d
+		c4.~ c8[ es] c
+		b!4.~ b8[ c] b %15
+		b4 a8 r4 r8
+		\mvTr f4.\fE^\tutti b8([ c des)]
+		c4 c8 es([ des)] c
+		b4 b8 b c des
+		es4 c8 c r r %20
+		b4~ b16 f f8 r r
+		des'4. b4 e,8
+		f f r r4 r8
+		R2.*11 %34
+		r4 r8 r4 \mvTr d'8\pE^\solo %35
+		b8. c16 b8 b a g
+		c4( a8) a r a
+		a4.~ a8[ g] fis
+		g([ c)] b r r d,
+		b'4. b %40
+		a8. b16 a8 c b a
+		a4.( g4)\trill g8
+		fis4 r8 \mvTr d'4.~\fE^\tutti
+		d8[ c] b c4.~
+		c8 b a b4.~ %45
+		b8[ a] g a([ g)] fis
+		b4. g4 g8
+		cis,4. cis
+		c es'
+		d4 g,8 a([ c)] a %50
+		g4.( fis4) fis8
+		g4 r8 r4 r8
+		R2.*17 %69
+		\mvTr g2.\pE^\solo %70
+		b4.~ b8[ des] b
+		as4.~ as8 c as
+		as4~ as16 g g4 r8
+		f4. as~
+		as8[ g] f as([ g)] f %75
+		es([ es' d)] c([ b a)]
+		b f as as4( g8)
+		f4 r8 r4 r8
+		R2.*8 %86
+		r4 r8 \mvTr f4.\fE^\tutti
+		es es
+		f g
+		as8 g f as([ g)] f %90
+		es([ g)] f es4( d8)
+		es r r a4.
+		b8 r r r4 r8
+		R2.*2 %95
+		r4 r8 a4.
+		b8 r r \mvTr as4(\pE^\solo  f8)
+		f4( es8) es[ g b]
+		as[ b g] as[ c] as
+		g4.( f)\trill %100
+		es8 r r r4 r8
+		R2.*3
+		\mvTr g4.\fE^\tutti f4 f8( %105
+		b[ g)] f es4( d8)
+		es r r f4.
+		es8 r r as4.
+		g8 r r r4 r8\fermata \bar "|." %109 finis
+	}
+}
+
+DeProfundisSopranoBLyrics = \lyricmode {
+	Fi -- ant au -- res %9
+	tu -- ae %10
+	in -- ten -- den --
+	tes in
+	vo -- cem de -- pre --
+	ca -- ti --
+	o -- nis %15
+	me -- ae.
+	Si in --
+	i -- qui -- ta -- tes
+	ob -- ser -- va -- ve -- ris,
+	Do -- mi -- ne, %20
+	Do -- mi -- ne,
+	quis su -- sti --
+	ne -- bit?
+
+	Su -- %35
+	sti -- nu -- it a -- ni -- ma
+	me -- a in
+	ver -- bo
+	e -- ius; spe --
+	ra -- vit %40
+	a -- ni -- ma me -- a in
+	Do -- mi --
+	no. A __
+	cu -- sto --
+	di -- a ma  %45
+	tu -- ti -- na
+	us -- que ad
+	no -- ctem,
+	spe -- ret
+	Is -- ra -- el __ in %50
+	Do -- mi --
+	no.
+
+	Et %70
+	ip -- se
+	re -- di -- met
+	Is -- ra -- el
+	ex o --
+	mni -- bus in -- %75
+	i -- qui --
+	ta -- ti -- bus e --
+	ius.
+
+	Et %87
+	sem -- per
+	et in
+	sae -- cu -- la sae -- cu -- %90
+	lo -- rum, a --
+	men, a --
+	men,
+
+	a -- %96
+	men, a --
+	men, a --
+	_ _ men,
+	a -- %100
+	men,
+
+	a -- men, a -- %105
+	men, a --
+	men, a --
+	men, a --
+	men. %109 finis
+}

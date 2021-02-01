@@ -164,13 +164,67 @@
 	% 		\midi { \tempo 4 = 105 }
 	% 	}
 	% }
+  % \bookpart {
+	% 	\header {
+	% 		number = "4"
+	% 		title = "B E A T U S   V I R"
+	% 	}
+  %   \paper { systems-per-page = #2 }
+	% 	\tocSection "4" "Beatus vir"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\BeatusViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\BeatusViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S 1"
+	% 					\new Voice = "SopranoA" { \dynamicUp \BeatusSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \BeatusSopranoALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoB" { \dynamicUp \BeatusSopranoBNotes }
+  %         }
+  %         \new Lyrics \lyricsto SopranoB \BeatusSopranoBLyrics
+  %
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \BeatusAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \BeatusAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\BeatusOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \BeatusBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 90 }
+	% 	}
+	% }
   \bookpart {
 		\header {
-			number = "4"
-			title = "B E A T U S   V I R"
+			number = "5"
+			title = "D E   P R O F U N D I S"
 		}
     \paper { systems-per-page = #2 }
-		\tocSection "4" "Beatus vir"
+		\tocSection "5" "De profundis"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -178,44 +232,44 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\BeatusViolinoI
+							\DeProfundisViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\BeatusViolinoII
+							\DeProfundisViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S 1"
-						\new Voice = "SopranoA" { \dynamicUp \BeatusSopranoANotes }
+						\new Voice = "SopranoA" { \dynamicUp \DeProfundisSopranoANotes }
 					}
-					\new Lyrics \lyricsto SopranoA \BeatusSopranoALyrics
+					\new Lyrics \lyricsto SopranoA \DeProfundisSopranoALyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoB" { \dynamicUp \BeatusSopranoBNotes }
+            \new Voice = "SopranoB" { \dynamicUp \DeProfundisSopranoBNotes }
           }
-          \new Lyrics \lyricsto SopranoB \BeatusSopranoBLyrics
+          \new Lyrics \lyricsto SopranoB \DeProfundisSopranoBLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \BeatusAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \DeProfundisAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \BeatusAltoLyrics
+					\new Lyrics \lyricsto Alto \DeProfundisAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\BeatusOrgano
+						\DeProfundisOrgano
 					}
 				>>
-				\new FiguredBass { \BeatusBassFigures }
+				\new FiguredBass { \DeProfundisBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4. = 50 }
 		}
 	}
 }

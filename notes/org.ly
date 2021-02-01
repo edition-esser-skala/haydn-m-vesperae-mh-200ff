@@ -863,6 +863,234 @@ BeatusBassFigures = \figuremode {
 	r1 %87 finis
 }
 
+DeProfundisOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 6/8 \tempoDeProfundis
+		\mvTr es4\p-\solo r8 r4 r8
+		r es f g f es
+		as, as' g f b as
+		g g(\f b) es es,( g)
+		b,4.\p as4 as'8 %5
+		g f es d b d
+		es es as, b b b
+		es \mvTr es'\f-\unisono( b) g( es) b
+		es r r es\p es es
+		es r r es es es %10
+		es r as, b c d
+		es g es c es c
+		g4 r8 g' r g,
+		c c' b! a r a,
+		b b' a g es e %15
+		f f, f' f\f c' es,
+		des-\tutti des' des des c b
+		a4 r8 a, a' a
+		b b, b' b b, b'
+		a4 r8 a, a' a %20
+		b b,-! b-! b-! b-! b-!
+		b des' b e, des' e,
+		f a c f r r
+		\mvTr b,,4\p-\solo r8 r4 r8
+		b4. a %25
+		b4 r8 r r b
+		c4. a
+		f8 r r f r r
+		f g a b( d) b
+		es4 r8 r r es %30
+		f f f f\fz f f
+		b, r b'\f a f a
+		b r b a f es
+		d b es f f f
+		b, r r d r r %35
+		g, r r g'4.~\p
+		g8 fis g a c a
+		fis a fis d4 d8
+		g g, g'16[ fis] g8 d b
+		g g' g g g g %40
+		g g g fis fis fis
+		g, g'( fis) g( b) cis,
+		\mvTr d\f-\tuttiE d d d d d
+		d d d d d d
+		d d d d d d %45
+		d d d d d d
+		b'4.-\unisono g
+		cis, cis
+		c8 c c c c c
+		b b b c c c %50
+		d d d d d d
+		g, r g'-\solo fis d fis
+		g r g fis d c
+		b g c d d d
+		g, r16 g'-! f!-! as!-! g-! f-! es-! d-! c-! h-! %55
+		c8 r r r4 r8
+		g4.\p f'
+		es8 c' d es d c
+		r g a h a g
+		c r r c, d es %60
+		f4 r8 r f f
+		es4 r8 r es es
+		d4 r8 g,4 r8
+		es' es es f f f
+		g g g g,\fz g g %65
+		\mvTr as2.\p-\tasto
+		b
+		c
+		d8\f r r b r r
+		es es\p g b g es %70
+		es' es, es es es es
+		es' es, es es es es
+		es' es, es es es es
+		r f es d d c
+		b r r b c d %75
+		es4. f
+		b8 r d, es es g
+		b r b,\f as' f d
+		es4 r8 r4 r8
+		r es\p f g f es %80
+		as, as' g f b as
+		g g(\f b) es es,( g)
+		b,4\p r8 d4 r8
+		es4 r8 g\fz f es
+		b4\p r8 d4 r8 %85
+		es4 r8 g\fz f es
+		b\p b b \mvTr d\f-\tutti d d
+		es es es c c c
+		b b b b b b
+		b r r r r b %90
+		es g, as b b b
+		es r r f r r
+		b, r r r4 r8
+		\mvTr es4\p-\solo r8 r4 r8
+		es r as, b b b %95
+		es r r \mvTr f\f-\tutti r r
+		b, r r r4 r8
+		\mvTr es\p-\solo r r es r r
+		as r r r4 as8
+		b b b b,\fz b b %100
+		es r es\p d b d
+		es r es d b as
+		g es' as, b b b
+		es r \mvTr es\f-\tutti d b d
+		es r es d b as %105
+		g es' as, b b b
+		es r r b r r
+		es r r b r r
+		es r r r4 r8\fermata \bar "|." %109 finis
+	}
+}
+
+DeProfundisBassFigures = \figuremode {
+	r2.
+	r4. r4 <5!>8
+	r4. <6>
+	q2.
+	<7>4. <2> %5
+	<6>8 q q q4 <5>8
+	r4 <6>8 <6 4>4 <[5] 3>8
+	r2.
+	<3>4. r4 <7 2>8
+	<3>4. r8 <7 5> <6 4> %10
+	<3>4. <8 6>8 <\t \t> <5 3>
+	r2.
+	<6 4>8 <[5] _!> r2
+	r4. <5>
+	r2 <8 6>8 <[7 5]> %15
+	<6 4>4 <[5] _!>2
+	<6>2.
+	<6>8 <5> r <7-> <6 4-> <5 3>
+	<_->2 <7! 2>8 <[8] _->
+	<7->4. <\t> %20
+	<_->2.
+	<\t>4. <7->
+	<_!>2.
+	q
+	<6 4>4 <[5] 3>8 <6 5>4. %25
+	r2.
+	<7>4 <6!>8 <6 5>4.
+	<7 [_!]>2.
+	\bo <[\t \t]>4. r4 \bc <[7- \l]>8
+	r4. r4 <6>8 %30
+	<6 4>4. <[5] _!>
+	r \bo <[6]>8 <_!> \bc <[5]>
+ 	r4. \bo <[6]>8 <_!> \bc <[4!]>
+	<[6]>4. <6 4>4 <[5] _!>8
+	r4. <[5] _+> %35
+	r2.
+	<2!>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<6 5>4. <7 [5!] _+>8 <6 4> <[5!] _+>
+	r <6 4> <[5] 3> r4.
+	r2. %40
+	<2!>4. <7>8 <6 4> <5 3>
+	<9 4>4 \bassFigureExtendersOn q8 <8 3>4 q8 \bassFigureExtendersOff
+	<[5!] _+>2.
+	<9 8 4>4. <\t 7 5!>
+	<8 7 _+> <\t 6 4> %45
+	<7 6 4 [2!]> <\t 5! _+>
+	r2.
+	r
+	<6! 4+ 3>
+	<6>4. <6!> %50
+	<6 4> <[5] _+>
+	r \bo <[6 _!]>8 <5! _+> \bc <[5 _!]>
+	r4. \bo q8 <5! _+> \bc <[6! 4+]>
+	<[6]>4 <6!>8 <6 4>4 <[5!] _+>8
+	r2. %55
+	r
+	<_!>4. <\t>
+	<6>2.
+	r8 <[_!]> r2
+	r2 <6!>8 <6> %60
+	r2.
+	<6>
+	<7>8 <6!>4 \bo <[9] _!>8 \bassFigureExtendersOn <8 _!> \bc <[7] _!> \bassFigureExtendersOff
+	\bo <[6]>4. \bc <[5]>4 <6>8
+	<6 4>4. <[5] _!> %65
+	r2.
+	r
+	r
+	<6 5>4. <[7]>
+	<3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %70
+	<7->2.
+	<6 4>
+	<\t \t>4. <[5] 3>
+	r <5>
+	<7> <9 7>8 <7> <5> %75
+	r4. <7 _!>8 <6 4> <[5] _!>
+	r4 <5->8 <9 4>4 <6>8
+	r2.
+	r
+	r4. r4 <5!>8 %80
+	r4. <6>
+	<[6]>2.
+	r4. <[6 5]>
+	r \bo <[6]>8 \bc q4
+	r4. <[6 5]> %85
+	r \bo <[6]>8 \bc q4
+	r4. <6 5>
+	r <6!>
+	r <6 4>
+	<7>2. %90
+	r8 <[6]> <6> <6 4>4 <[5] 3>8
+	r4. <7 _!>
+	r2.
+	<7 2>4 <[8] 3>8 r4.
+	r4 <6>8 <6 4>4 <[5] 3>8 %95
+	r4. <7 _!>
+	r2.
+	<7 2>4 <[8] 3>8 <7->4.
+	r4. r4 <6>8
+	<6 4>4. <[5] 3> %100
+	r \bo <[6]>4 \bc <[5]>8
+	r4. \bo <[6]>4 \bc <[2]>8
+	<[6]>4 <6>8 <6 4>4 <[5] 3>8
+	r4. \bo <[6]>4 \bc <[5]>8
+	r4. \bo <[6]>4 \bc <[2]>8 %105
+	<[6]>4 <6>8 <6 4>4 <[5] 3>8
+	r4. <[7]>
+	r q
+	r2. %109 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

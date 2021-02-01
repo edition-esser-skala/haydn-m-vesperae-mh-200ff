@@ -411,3 +411,119 @@ BeatusViolinoII = {
 		g'16 e c' c d,8 h' c,4 r\fermata \bar "|." %87 finis
 	}
 }
+
+DeProfundisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 6/8 \tempoDeProfundis
+		g8\p g g g g g
+		g es' es es es es
+		r es es as f f
+		b g(\f b) es es,( g)
+		b, d\p d b\f f'\p f %5
+		b( as g) f( d) f
+		es( g) f \once \slurDashed es4( d8)
+		es es'(\f b) g( es) b
+		es\p r r g,16( b es g) b( d,)
+		es8 r r es16( g b g) as( d,) %10
+		es8 r c'16( as) g4( f8)
+		es r r r c-! es-!
+		g4 r8 g( d') h
+		c c c c( es) c
+		b! b b b( c) b %15
+		b4 a8 f\f c' es,!
+		des r f b c des
+		c4 c8 es( des c)
+		b r f b a b
+		es r r es c c %20
+		b des-! des-! des-! des-! des-!
+		des des b e, des' e,
+		f a c f r r
+		d,!4\p b8 g'( f) es
+		es4( d8) c es c %25
+		b( d) c b f' d
+		es4. c8 es c
+		a r r a r r
+		a b c d( f) d
+		es f d es( c) g' %30
+		d d d c\fz c c
+		b d'16(\f b) g'( f) f( c) es( a,) c( es,)
+		d( f) d'( b) g'( f) f( c) es( a,) c( a')
+		b( f) d( f) es( g) b,( f) d( f) es( f)
+		d8 r16 b'-! d-! g,-! fis-! es!-! d-! c-! b-! a-! %35
+		g8 r r d'\p fis g
+		a4. c8 es c
+		a c a fis d fis
+		g r g16 fis g8 d b
+		g b d g d b' %40
+		c4.~ c8 b a
+		d,4. b'8( g) cis,
+		d\f fis a d16( a) fis-! a-! fis-! a-!
+		g8 b' g, a16( c) es-! c-! a-! g-!
+		fis8 a' fis, g16( d) g-! b-! g-! f-! %45
+		e8 g' e, fis16( a) d-! a'-! a,-! c-!
+		b( d) b-! a-! g-! fis-! g( b) g-! f-! es-! d-!
+		cis( g) b-! a-! b-! g-! b'( g) b'-! a-! b-! g-!
+		es8 es es es es es
+		g16( b) g-! fis-! g-! d-! c( es) c-! b-! c-! a-! %50
+		g8 g g fis fis fis
+		g b16( g) es'( d) \once \slurDashed d( a) fis( a) d,( c)
+		b( d) b'( g) es'( d) d( a) fis( a) fis'( d)
+		g( d) b( d) c( es) g,( d) b( d) c( d)
+		b8 r16 g'-! f!-! as!-! g f es d c h %55
+		c8 c-!\p d-! es-! d-! c-!
+		r g' a h a g
+		c es, f g f es
+		r h c d c h
+		r c d es f g %60
+		c, as' as as c, c
+		c g' g g c, c~
+		c h as'~ as g f
+		g4. as8( f) d
+		c c c h\fz h h %65
+		c r e\p f( c) as'
+		\appoggiatura es d4 fis8 g b! g
+		\appoggiatura f es4 g8 as( es) c'
+		b,16(\f d) f-! d-! as'-! f-! as( f) d-! b-! f'-! as,-!
+		g8-! es'-!\p g-! b-! g-! es-! %70
+		es' g g g g, g
+		as as' as as as, as
+		as16( b c b c as) g( as g f es g)
+		f8 as g f f es
+		d r r d es f %75
+		g4. c,8 d es
+		d d f f4( es8)
+		d r b\f as' f d
+		es g,\p g g g g
+		g es' es es es es %80
+		r es es as f f
+		b g(\f b) es es,( g)
+		b,\p d d b f' f
+		es r g, b(\fzE d) es
+		d\p d d b f' f %85
+		es r g, b(\fz d) es
+		d\p d d b\f b b
+		es16 g es d c b a8 a' a
+		b16 f b f b f g es g es g es
+		d8 b' b d, es f %90
+		es g f es4( d8)
+		es g'16-! es-! g( b,) a( c) es-! c-! es( a,)
+		b8 b, r b(\p f' d)
+		d4( es8) g( b as)
+		g16( as g es) as( f) \once \slurDashed es4( d8) %95
+		es g'16-!\f es-! g( b,) a( c) es-! c-! es( a,)
+		b8 b, r b(\p f' d)
+		d4( es8) des'( b g)
+		as-! b-! g-! as( f) c'
+		g g g as\fz as, as %100
+		g g'16(\p es) c'( b) b( f) as( d,) f( as,)
+		g( b) g'( es) c'( b) b( f) as( d,) f( d')
+		es( b) g( b) as( c) es,( b) g( b) as( b)
+		g8 g'16(\f es) c'( b) b( f) as( d,) f( as,)
+		g( b) g'( es) c'( b) b( f) as( d,) f'( d) %105
+		es( b) g( b) as( c) es,( b) g( b) as( b)
+		g8 es''-! es-! b-! b'-! b-!
+		es,-! es, es b b' b
+		es, r r r4 r8\fermata \bar "|." %109 finis
+	}
+}
