@@ -511,6 +511,156 @@ ConfiteborAltoLyrics = \lyricmode {
 	men. %152 finis
 }
 
+BeatusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoBeatus
+		r2 r8 \mvTr f\fE^\tuttiE e e
+		f4 e f e
+		f( g8) g c,4 c8 c
+		f f e e d h c4
+		g' r r2 %5
+		r8 e e e d f r4
+		d8 d d d c e r4
+		r c8 d16([ h)] c8. c16 c8 d16([ h)]
+		c4 c8 e f d g4
+		c, r r2 %10
+		R1*10 %20
+		r4 \mvTr e\pE^\solo dis d
+		c4. c8 c4 h
+		d d8 g d d r4
+		r8 \mvTr e\fE^\tutti e e d([ fis16 e)] d4
+		r8 g\p g g g([ fis)] fis g %25
+		g fis fis4 r g\f
+		c, c r8 a a a
+		h4 h e4. e8
+		a8. a,16 a4 r2
+		d8 a' a a a4 dis, %30
+		e c8 c d4. d8
+		g,4 r r2
+		R1
+		\mvTr d'8\pE^\solo d d4.( h'8) a([ g)]
+		d d d4.( c'8) h([ a)] %35
+		h[( g] d'4. c8) h([ a)]
+		a4 gis r2
+		e8 e e4.( c'8) h([ a)]
+		e e e4.( d'8) c([ h)]
+		c16([ h c a)] d([ c d h)] a4( \grace c16 \once \stemUp h4) %40
+		a r r c8 dis,
+		e e a4 g8 e h'4~
+		h a16([ g)] fis([ e)] fis8. h,16 h4
+		r2 \mvTr h4\fE^\tutti dis
+		e4. e8 h dis fis([ dis)] %45
+		e4 r r2
+		e4( gis) a a
+		e8([ gis h)] gis a4 r
+		r8 a a a g8. g16 g8 r
+		e([ h)] g([ h)] e e h4 %50
+		e r r2
+		R1*9 %60
+		r2 r4 r8 \mvTr g\fE^\tuttiE
+		c,4 c r8 c h4
+		c r8 c e e e4
+		a, f'8 f16 f g!8 f e([ c)]
+		f4 r cis8\p cis cis4 %65
+		d d8\f e f e16 e d8 c
+		h c r c f e r4
+		R1
+		\mvTr a4.\pE^\solo a8 a2
+		a4 gis r g %70
+		g8. g16 fis4 r f~
+		f e h c8 c
+		g'4 g r2
+		r r8 \mvTr f([\fE^\tutti e)] e
+		f4 e f e %75
+		f( g8) g c,4 r
+		f e d8([ h)] c4
+		g' r r2
+		e8 e e8. e16 d4 d8 d
+		d d d4 c r %80
+		r c8 d16([ h)] c8. c16 c8([ d16 h)]
+		c4 e( f8) a16([ f)] g4
+		c, r r2
+		r4 r8 c!( h) c g'4
+		c, r8 e f4 r8 cis %85
+		d4 r8 c( h) c g'4
+		c, g' c, r\fermata \bar "|." %87 finis
+	}
+}
+
+BeatusAltoLyrics = \lyricmode {
+	Be -- a -- tus
+	vir, qui ti -- met
+	Do -- mi -- num, in man --
+	da -- tis e -- ius vo -- let ni --
+	mis. %5
+	Po -- tens in ter -- ra
+	e -- rit se -- men e -- ius,
+	ge -- ne -- ra -- ti -- o re --
+	cto -- rum be -- ne -- di -- ce --
+	tur. %10
+
+	Mi -- se -- ri -- %21
+	cors et mi -- se --
+	ra -- tor et iu -- stus.
+	Iu -- cun -- dus ho -- mo,
+	qui mi -- se -- re -- tur et %25
+	com -- mo -- dat, dis --
+	po -- net ser -- mo -- nes
+	su -- as in iu --
+	di -- ci -- o,
+	qui -- a in ae -- ter -- num %30
+	non com -- mo -- ve -- bi --
+	tur.
+
+	In me -- mo -- ri --
+	a ae -- ter -- na %35
+	e -- rit
+	iu -- stus,
+	ab au -- di -- ti --
+	o -- ne ma -- la
+	non __ ti -- me -- %40
+	bit. Pa -- ra --
+	tum cor e -- ius, spe -- ra --
+	re in Do -- mi -- no,
+	con -- fir --
+	ma -- tum est cor e -- %45
+	ius,
+	non __ com -- mo --
+	ve -- bi -- tur,
+	do -- nec de -- spi -- ci -- at
+	in -- i -- mi -- cos su -- %50
+	os.
+
+	Pec -- %61
+	ca -- tor vi -- de --
+	bit et i -- ra -- sce --
+	tur, den -- ti -- bus su -- is fre --
+	met et ta -- be -- %65
+	scet. De -- si -- de -- ri -- um pec -- ca --
+	to -- rum per -- i -- bit.
+
+	Glo -- ri -- a
+	Pa -- tri et %70
+	Fi -- li -- o et __
+	Spi -- ri -- tu -- i
+	San -- cto,
+	si -- cut
+	e -- rat in prin -- %75
+	ci -- pi -- o
+	et nunc et sem --
+	per
+	et in sae -- cu -- la sae -- cu --
+	lo -- rum, a -- men, %80
+	a -- men, a -- men, a --
+	men, a -- men, a --
+	men,
+	a -- men, a --
+	men, a -- men, a -- %85
+	men, a -- men, a --
+	men, a -- men. %87 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

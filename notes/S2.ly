@@ -484,3 +484,151 @@ ConfiteborSopranoBLyrics = \lyricmode {
 	men, a --
 	men. %152 finis
 }
+
+BeatusSopranoBNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoBeatus
+		r2 r8 \mvTr a'\fE^\tuttiE g g
+		a4 g a g8([ c)]
+		c4( h8) h c4 g8 g
+		a a g g f d' \appoggiatura d c4
+		h r r2 %5
+		r8 g g g f a r4
+		f8 f f f e g r4
+		r e8 f e8. e16 e8 f
+		e4 e8 g a d c([ h)]
+		c4 r r2 %10
+		R1
+		r4 \mvTr c4.\pE^\solo d16 h c8 d
+		\appoggiatura f e8. f16 g8 h, \appoggiatura d16 c8 \appoggiatura h16 a8 g([ f)]
+		e4 r g g
+		g c8 g g([ a16 g)] g4 %15
+		r c4.( cis8) d e
+		f4~ f16[ d] e c \appoggiatura c8 h8. a16 g4
+		r d d8([ g)] h([ d)]
+		d4. c8 \appoggiatura c h8. c16 d4
+		e8( g4) e8 e d r4 %20
+		r8 h c4. ais8 h4~
+		h8 gis a4. fis8 g4~
+		g8[ fis] a g g fis r4
+		r8 \mvTr g\fE^\tutti g g fis([ a16 g)] fis4
+		r8 b\p b b b([ a)] a b %25
+		b a a4 r g8([\f d')]
+		d4 c r8 c c c
+		c4 h h4. h8
+		h8. gis16 a4 a8 a a a
+		c2 c %30
+		h4 c8 a g4( fis8.) g16
+		g4 r r2
+		R1*11 %43
+		r2 \mvTr fis4\fE^\tuttiE fis
+		g4. g8 fis fis a([ fis)] %45
+		g4 r r2
+		h c4 c
+		h( d8) h c4 r
+		r8 c c c h8. h16 h8 r
+		g4 h g8 e e([ dis)] %50
+		e4 r r2
+		R1*9 %60
+		r2 r4 r8 \mvTr h'\fE^\tuttiE
+		c4 g r8 a d4
+		c r8 c gis a h([ gis)]
+		a4 a8 a16 a b8 a g[( b)]
+		a4 f8\p f f4( e) %65
+		d d'8\f b a g16 g f8 e
+		d e r a a gis r4
+		R1
+		\mvTr c4.\pE^\solo c8 c2
+		c4 h r b %70
+		b8. b16 a4 r a(
+		h) c d d8 c
+		c4 h r2
+		r r8 \mvTr a([\fE^\tutti g)] g
+		a4 g a g8([ c)] %75
+		c4( h8) h c4 r8 g
+		a4 g f8( d'4 c8)
+		h4 r r2
+		g8 g g8. g16 f4 a8 a
+		f f f4 e r %80
+		r e8 f e8. e16 e8([ f)]
+		e4 g8( e'4) d8 c([ h)]
+		c4 r r2
+		r4 r8 a( d) c c([ h)]
+		c4 r8 g f4 r8 e %85
+		d4 r8 a'( d) c c([ h)]
+		c4 h c r\fermata \bar "|." %87 finis
+	}
+}
+
+BeatusSopranoBLyrics = \lyricmode {
+	Be -- a -- tus
+	vir, qui ti -- met
+	Do -- mi -- num, in man --
+	da -- tis e -- ius vo -- let ni --
+	mis. %5
+	Po -- tens in ter -- ra
+	e -- rit se -- men e -- ius,
+	ge -- ne -- ra -- ti -- o re --
+	cto -- rum be -- ne -- di -- ce --
+	tur. %10
+
+	Glo -- ri -- a et di --
+	vi -- ti -- ae in do -- mo e --
+	ius, et iu --
+	sti -- ti -- a e -- ius %15
+	ma -- net in
+	sae -- cu -- lum sae -- cu -- li.
+	Ex -- or -- tum
+	est in te -- ne -- bris
+	lu -- men re -- ctis, %20
+	mi -- se -- ri -- cors __
+	et mi -- se -- ra --
+	tor et iu -- stus.
+	Iu -- cun -- dus ho -- mo,
+	qui mi -- se -- re -- tur et %25
+	com -- mo -- dat, dis --
+	po -- net ser -- mo -- nes
+	su -- as in iu --
+	di -- ci -- o, qui -- a in ae --
+	ter -- num %30
+	non com -- mo -- ve -- bi --
+	tur.
+
+	Con -- fir --  %44
+	ma -- tum est cor e -- %45
+	ius,
+	non com -- mo --
+	ve -- bi -- tur,
+	do -- nec de -- spi -- ci -- at
+	in -- i -- mi -- cos su -- %50
+	os.
+
+	Pec -- %61
+	ca -- tor vi -- de --
+	bit et i -- ra -- sce --
+	tur, den -- ti -- bus su -- is fre --
+	met et ta -- be -- %65
+	scet. De -- si -- de -- ri -- um pec -- ca --
+	to -- rum per -- i -- bit.
+
+	Glo -- ri -- a
+	Pa -- tri et %70
+	Fi -- li -- o et __
+	Spi -- ri -- tu -- i
+	San -- cto,
+	si -- cut
+	e -- rat in prin -- %75
+	ci -- pi -- o et
+	nunc et sem --
+	per
+	et in sae -- cu -- la sae -- cu --
+	lo -- rum, a -- men, %80
+	a -- men, a -- men, a --
+	men, a -- men, a --
+	men,
+	a -- men, a --
+	men, a -- men, a -- %85
+	men, a -- men, a --
+	men, a -- men. %87 finis
+}

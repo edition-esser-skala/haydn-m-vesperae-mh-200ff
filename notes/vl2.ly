@@ -317,3 +317,97 @@ ConfiteborViolinoII = {
 		a4 r r\fermata \bar "|." %152 finis
 	}
 }
+
+BeatusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoBeatus
+		<g e'>4\fE r r8 a' g g
+		a4 g a g8 g
+		a c g h c16( g) g8 r g
+		a4 g f8 d' \appoggiatura d c4
+		h8 d-! h-! d-! g-! g,-! r4 %5
+		r8 a, a a d4 r
+		r8 g, g f' e16 g c e c8 g
+		g4 e8 f16 d e8. e16 e8 f16 d
+		e4 e8 g a d c( h)
+		c4 r8 <c g'> <f, c' a'>4 r8 <a e'> %10
+		<d, a' f'>4 r8 a' g16. d'32 e16. c32 d,8 h'
+		c,4 e8\p f g4. h8
+		\appoggiatura h c4 r8 f, g e a g
+		g4 r8 g, h c d h
+		c( g) r c h c d h16 d %15
+		\appoggiatura d8 c4 r8 g a a'4 g8
+		g2 g4 r8 d
+		fis g a fis g( d) r g
+		fis g a fis16 a \appoggiatura a8 g4 r8 h
+		e c r c c h h\f a %20
+		g4 r r h~\pE
+		h a8 g! fis( a) h g
+		d2 d4 fis16(\f a) d-! d-!
+		cis( e) g-! g-! g( e) cis-! cis-! a'( fis) d-! d-! a'( fis) d-! d-!
+		g\p g g g g, g g g g8( fis) fis g %25
+		g( fis) d-!\f c!-! h!16( d) h-! d-! g( h) g-! h-!
+		c, g' a g c e c h a c a h fis a c a
+		h, fis' g fis h d h a gis h gis fis e gis h gis
+		a e e' d c h a g fis d fis d fis d fis d
+		a'8 a4 a a a8 %30
+		g16 h g h c e, c' a g8 g fis fis
+		g4 r8 <g d'> <g c e>4 r8 <e h'>
+		<a, e' c'>4 r8 e' d16. a'32 h16. g32 a,8 fis'
+		g r g16\p h c h h,8\f d\p fis g
+		a r d,16 a' h a c8\f d,\p d a' %35
+		g( d) h( d) h'( c) h( a)
+		a4 gis16 f!\f e d e d c e d c d h
+		a8 r a'16\p c d c c,8\f e\p gis a
+		h r d,16 h' c h d8\f e,\p e h'
+		a r a r c16( h c a) h( a h gis) %40
+		a8 a\f gis16( a) c a dis,4 fis8\p r
+		g r fis r h, r g' fis
+		e e e e dis h\f h'16 a g fis
+		e4 g'16( fis) g-! e-! dis( e) fis-! dis-! h a h fis
+		g fis g e \slurDashed g'( fis) \parOn g-\parenthesize-! e-! dis( e) fis-! \parOff dis-\parenthesize-! \slurSolid h a h fis %45
+		g fis g e gis fis gis e a4 c'16( h) c-! a-!
+		gis( a) h-! gis-! e d e h c h c a c'( h) c-! a-!
+		\once \slurDashed gis( a) \parOn h-\parenthesize-! \parOff gis-\parenthesize-! e d e h c h c a c h c a
+		fis fis fis fis fis fis fis fis g g h h g g h h
+		e, e h h g g h h e8 e e dis %50
+		e4 r8 <e h'> <a, e' c'>4 r8 h'
+		a4 r8 g fis16. h32 e,16. g32 fis8 dis'
+		e,4 r8 e'\p e16-! d-! e-! f-! g-! e-! cis-! e-!
+		d e f e d c h! a g a h a g f e d
+		c4 r r8 a' a( d,) %55
+		r h' h( e,) r a d c
+		h\f h, d h r h d h
+		r e\p c g' r h, d h
+		c( e) d( f) e16 c d e f a d, f
+		e f e h c d c d e8 c' c h %60
+		c16 g(\f e g) c-! g( e g) f-! g,-! e'-! g,-! d'-! d'-! f-! d-!
+		e! g,( e g) c-! e-! g-! e-! f d f d g, d' f d
+		e e( c e) a-! e-! c! e-! d e, c' e, h' d h' d,
+		c c( d c) f-! c-! a'-! c,-! b' c, a' c, g' c, g' e
+		f f, f f f8\p f f4 e %65
+		d8 f\f a16 a g g f f g g f f e e
+		d8 e r a a gis r4
+		e'8(\p h) d!( gis,) h( d,) f( gis,)
+		a4 r8 c c' c c c
+		c\f c\p h h b b b b %70
+		b\f b\p a a a a a a
+		g\fE g\p  g g g g g g
+		g4 r16 g,\f a g g' f e g f e f d
+		c4 r r8 a' g g
+		a4 g a g8 g %75
+		a c g h c16 g g8 r g
+		a4 g f8 d'4 c8
+		h d-! h-! d-! g-! g,-! r4
+		r8 a, a a d4 r
+		r8 g, g f' e16 g c e c8 g %80
+		g4 e8 f16 d e8. e16 e8 f16 d
+		e4 g8 c a d c( h)
+		c4 r8 <c g'> <f, c' a'>4 r8 <a e'>
+		<d, a' f'>4 r8 a' g16. d'32 e16. c32 d,8 h'
+		c \tuplet 3/2 8 { g'16 f e } c' c c c c8 \tuplet 3/2 8 { a,16 g f } a' a a a %85
+		a8 \tuplet 3/2 8 { f,16 e d } f' f f f f16. d32 e16. c32 d,8 h'
+		g'16 e c' c d,8 h' c,4 r\fermata \bar "|." %87 finis
+	}
+}

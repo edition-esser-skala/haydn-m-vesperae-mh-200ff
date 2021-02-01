@@ -110,13 +110,67 @@
 	% 		\midi { \tempo 4 = 90 }
 	% 	}
 	% }
+  % \bookpart {
+	% 	\header {
+	% 		number = "3"
+	% 		title = "C O N F I T E B O R"
+	% 	}
+  %   \paper { systems-per-page = #2 }
+	% 	\tocSection "3" "Confitebor"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\ConfiteborViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\ConfiteborViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S 1"
+	% 					\new Voice = "SopranoA" { \dynamicUp \ConfiteborSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \ConfiteborSopranoALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoB" { \dynamicUp \ConfiteborSopranoBNotes }
+  %         }
+  %         \new Lyrics \lyricsto SopranoB \ConfiteborSopranoBLyrics
+  %
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \ConfiteborAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\ConfiteborOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \ConfiteborBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 105 }
+	% 	}
+	% }
   \bookpart {
 		\header {
-			number = "3"
-			title = "C O N F I T E B O R"
+			number = "4"
+			title = "B E A T U S   V I R"
 		}
     \paper { systems-per-page = #2 }
-		\tocSection "3" "Confitebor"
+		\tocSection "4" "Beatus vir"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -124,44 +178,44 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\ConfiteborViolinoI
+							\BeatusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\ConfiteborViolinoII
+							\BeatusViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S 1"
-						\new Voice = "SopranoA" { \dynamicUp \ConfiteborSopranoANotes }
+						\new Voice = "SopranoA" { \dynamicUp \BeatusSopranoANotes }
 					}
-					\new Lyrics \lyricsto SopranoA \ConfiteborSopranoALyrics
+					\new Lyrics \lyricsto SopranoA \BeatusSopranoALyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoB" { \dynamicUp \ConfiteborSopranoBNotes }
+            \new Voice = "SopranoB" { \dynamicUp \BeatusSopranoBNotes }
           }
-          \new Lyrics \lyricsto SopranoB \ConfiteborSopranoBLyrics
+          \new Lyrics \lyricsto SopranoB \BeatusSopranoBLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \ConfiteborAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \BeatusAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
+					\new Lyrics \lyricsto Alto \BeatusAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\ConfiteborOrgano
+						\BeatusOrgano
 					}
 				>>
-				\new FiguredBass { \ConfiteborBassFigures }
+				\new FiguredBass { \BeatusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 105 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }
