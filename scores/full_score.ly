@@ -218,13 +218,71 @@
 	% 		\midi { \tempo 4 = 90 }
 	% 	}
 	% }
+  % \bookpart {
+	% 	\header {
+	% 		number = "5"
+	% 		title = "D E   P R O F U N D I S"
+	% 	}
+  %   \paper { systems-per-page = #2 }
+	% 	\tocSection "5" "De profundis"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\DeProfundisViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\DeProfundisViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S 1"
+	% 					\new Voice = "SopranoA" { \dynamicUp \DeProfundisSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \DeProfundisSopranoALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoB" { \dynamicUp \DeProfundisSopranoBNotes }
+  %         }
+  %         \new Lyrics \lyricsto SopranoB \DeProfundisSopranoBLyrics
+  %
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \DeProfundisAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \DeProfundisAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\DeProfundisOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \DeProfundisBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4. = 50 }
+	% 	}
+	% }
   \bookpart {
 		\header {
-			number = "5"
-			title = "D E   P R O F U N D I S"
+			number = "6"
+			title = "M E M E N T O,   D O M I N E,   D A V I D"
 		}
-    \paper { systems-per-page = #2 }
-		\tocSection "5" "De profundis"
+    \paper {
+      system-system-spacing.basic-distance = #27
+      system-system-spacing.minimum-distance = #27
+      systems-per-page = #2
+    }
+		\tocSection "6" "Memento, Domine, David"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -232,44 +290,38 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\DeProfundisViolinoI
+							\MementoViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\DeProfundisViolinoII
+							\MementoViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S 1"
-						\new Voice = "SopranoA" { \dynamicUp \DeProfundisSopranoANotes }
+						\new Voice = "SopranoA" { \dynamicUp \MementoSopranoANotes }
 					}
-					\new Lyrics \lyricsto SopranoA \DeProfundisSopranoALyrics
+					\new Lyrics \lyricsto SopranoA \MementoSopranoALyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoB" { \dynamicUp \DeProfundisSopranoBNotes }
+            \new Voice = "SopranoB" { \dynamicUp \MementoSopranoBNotes }
           }
-          \new Lyrics \lyricsto SopranoB \DeProfundisSopranoBLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \DeProfundisAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \DeProfundisAltoLyrics
+          \new Lyrics \lyricsto SopranoB \MementoSopranoBLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\DeProfundisOrgano
+						\MementoOrgano
 					}
 				>>
-				\new FiguredBass { \DeProfundisBassFigures }
+				\new FiguredBass { \MementoBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 50 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

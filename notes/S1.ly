@@ -803,6 +803,175 @@ DeProfundisSopranoALyrics = \lyricmode {
 	men. %109 finis
 }
 
+MementoSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \autoBeamOff \tempoMemento
+		\partial 8 r8 R1*2
+		r2 r4 \mvTr g'\fE^\tuttiE
+		a8.([ h16)] h4 c8. c16 h4
+		a8 g r4 r r8 a %5
+		h h h h h4 a8 g
+		a4( h) a r
+		R1*4 %11
+		g4 a( h8) h h8. h16
+		h8 h h h h h16 h c8 h
+		a g r4 r a(
+		h8) h h8. h16 h8 h h h %15
+		a g a([ h)] a4 r
+		R1*4 %20
+		r2 r4 g
+		a8. h16 h8 h h h16 h h8 h
+		r h h h h h16 h c8 h
+		a8. a16 g4 r2
+		a8. h16 h8 h16 h a8 g a([ h)] %25
+		a4 r r2
+		R1*3
+		r2 g4 a %30
+		h8. h16 h8 h h h c8. c16
+		h4 a g r
+		r a8. h16 h8. h16 h8 h
+		h h h h16 h h8 h a g
+		a4( h) a r %35
+		R1*6 %41
+		r4 g a8([ h)] h4~
+		h8 h h h h4. h8
+		c4 h8 h a4. a8
+		g4 r r a %45
+		h8 h h2 a8 g
+		a4( h) a r
+		R1*4 %51
+		r2 r4 g
+		a8. h16 h8. h16 h4 h8 h
+		h h h h r h h h
+		c8. c16 h4 a8 g r4 %55
+		r a h8 h h h
+		h h r4 h8 h h4~
+		h8 h a g a4( h)
+		a r r2
+		R1*5 %64
+		r2 g4 a( %65
+		h8.) h16 h8 h h4 h
+		h c8 h a8. a16 g4
+		r2 r4 r8 a
+		h4 h h4. h8
+		a g a([ h)] a4 r %70
+		R1*4
+		r2 r4 g %75
+		a( h8) h16 h h4 h
+		r h h c8 h
+		a8. a16 g4 r2
+		a4 h8 h h4 h
+		h8. h16 h8 h a g a([ h)] %80
+		a4 r r2
+		R1*3
+		r2 g4 a8.([ h16)] %85
+		h8 h h h h h16 h c4
+		h a g r
+		r a h8 h h h
+		h h h h h h a g
+		a4( h) a r %90
+		R1*5 %95
+		r2 r4 g
+		a8.([ h16)] h4. h8 h h
+		h8. h16 h4 r8 h c h
+		a g r4 r a8. h16
+		h8 h h h h h h h %100
+		r h h h h4 a8 g
+		a4( h) a r
+		R1*8 %110
+		g4 a8.([ h16)] h8 h h h
+		h8. h16 h4 r h
+		c8 h a4 g r
+		r a( h8) h h8. h16
+		h4 h4. h8 a g %115
+		a4( h) a r
+		R1*3
+		R1\fermata \bar "|." %120 finis
+	}
+}
+
+MementoSopranoALyrics = \lyricmode {
+	Me -- %3
+	men -- to, Do -- mi -- ne,
+	Da -- vid et
+	o -- mnis man -- sue -- tu -- di -- nis
+	e -- ius.
+
+	Si in -- tro -- i -- e -- %12
+	ro in ta -- ber -- na -- cu -- lum do -- mus
+	me -- ae, si __
+	a -- scen -- de -- ro in le -- ctum
+	stra -- ti me -- i,
+
+	et %21
+	re -- qui -- em tem -- po -- ri -- bus me -- is
+	do -- nec in -- ve -- ni -- am lo -- cum
+	Do -- mi -- no,
+	ta -- ber -- na -- cu -- lum De -- o Ia --
+	cob.
+
+	In -- tro -- %30
+	i -- bi -- mus in ta -- ber -- na -- cu --
+	lum e -- ius,
+	ad -- o -- ra -- bi -- mus in
+	lo -- co, u -- bi ste -- te -- runt pe -- des
+	e -- ius.
+
+	Sa -- cer -- do -- %42
+	tes tu -- i in -- du --
+	an -- tur iu -- sti -- ti --
+	am, et
+	san -- cti tu -- i ex --
+	sul -- tent.
+
+	Iu -- %52
+	ra -- vit Do -- mi -- nus Da -- vid
+	ve -- ri -- ta -- tem et non fru --
+	stra -- bi -- tur e -- am:
+	De fru -- ctu ven -- tris
+	tu -- i po -- nam su --
+	per se -- dem tu --
+	am.
+
+	et fi -- %65
+	li -- i e -- o -- rum
+	us -- que in sae -- cu -- lum
+	se --
+	de -- bunt su -- per
+	se -- dem tu -- am.
+
+	Haec %75
+	re -- qui -- es me -- a
+	in sae -- cu -- lum
+	sae -- cu -- li;
+	hic ha -- bi -- ta -- bo,
+	quo -- ni -- am e -- le -- gi e --
+	am.
+
+	Sa -- cer -- %85
+	do -- tes e -- ius in -- du -- am sa --
+	lu -- ta -- ri,
+	et san -- cti e -- ius
+	ex -- sul -- ta -- ti -- o -- ne ex -- sul --
+	ta -- bunt.
+
+	In -- %96
+	i -- mi -- cos e -- ius
+	in -- du -- am con -- fu -- si --
+	o -- ne, su -- per
+	ip -- sum au -- tem ef -- flo -- re -- bit
+	san -- cti -- fi -- ca -- ti -- o
+	me -- a.
+
+	si -- cut __ e -- rat in prin -- %11
+	ci -- pi -- o et
+	nunc et sem -- per
+	et __ in sae -- cu --
+	la sae -- cu -- lo -- rum,
+	a -- men. %116 finis
+}
+
 % SopranoANotes = {
 % 	\relative c' {
 % 		\clef treble

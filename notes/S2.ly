@@ -773,3 +773,140 @@ DeProfundisSopranoBLyrics = \lyricmode {
 	men, a --
 	men. %109 finis
 }
+
+MementoSopranoBNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \autoBeamOff \tempoMemento
+		\partial 8 r8 R1*7 %7
+		\mvTr g'4\fE^\tuttiE  a( h8) h c4~
+		c8 h a8. a16 g4 r8 a(
+		h) h h4. h8 a g %10
+		a4( h) a r
+		R1*5 %16
+		r4 g a8. h16 h8 h~
+		h h c h16 h a8 g r4
+		r8 a h h16 h h8 h h4~
+		h8 h a g a4( h) %20
+		a r r2
+		R1*4 %25
+		r2 g4 a(
+		h8) h h h16 h h4 a8 h
+		a8. a16 g4 r8 a h h16 h
+		h8 h r h a g a([ h)]
+		a4 r r2 %30
+		R1*5 %35
+		g4 a8.([ h16)] h8. h16 h8 h
+		c8. c16 h4 a2
+		g4 r r2
+		a8 h h2 h8 h
+		h h h4. h8 a g %40
+		a4( h) a r
+		R1*5 %46
+		r2 r4 g
+		a8.([ h16)] h4. h8 c h
+		a g r4 r a8. h16
+		h8 h h4. h16 h a8 g %50
+		a4( h) a r
+		R1*7 %58
+		r2 g4 a(
+		h8) h h8. h16 h4 h8 h16 h %60
+		h8 h r4 h8 h c4~
+		c8 h a4 g r8 a
+		h h h h16 h h8 h h4
+		h8 h a g a4( h)
+		a r r2 %65
+		R1*5 %70
+		r4 g( a8.) h16 h8 h
+		h h c h16 h a8 g r4
+		r8 a h h h h16 h h8 h
+		h h a g a4( h)
+		a r r2 %75
+		R1*5 %80
+		r2 g4( a8) h16 h
+		h8 h h h h h c h
+		a4 g r8 a([ h)] h16 h
+		h8 h h h a g a([ h16)] a
+		a4 r r2 %85
+		R1*5 %90
+		r4 g( a) h~
+		h8 h h2 h4
+		c h a2
+		g4 r r a
+		h h8 h h h a g %95
+		a4( h) a r
+		R1*9 %105
+		r2 r4 g(
+		a8.[ h16)] h8 h c4 h8 h
+		a8. a16 g4 r a(
+		h8) h h2 a8 g
+		a4( h) a r %110
+		R1*9 %119
+		R1\fermata \bar "|." %120 finis
+	}
+}
+
+MementoSopranoBLyrics = \lyricmode {
+	Sic -- ut __ iu -- ra -- %8
+	vit Do -- mi -- no, vo --
+	tum vo -- vit De -- o
+	Ia -- cob:
+
+	si de -- de -- ro som -- %17
+	num o -- cu -- lis me -- is
+	et pal -- pe -- bris me -- is dor --
+	mi -- ta -- ti -- o --
+	nem,
+
+	Ec -- ce __ %26
+	au -- di -- vi -- mus e -- am in
+	Eph -- ra -- tha, in -- ve -- ni -- mus
+	e -- am in cam -- pis sil --
+	vae.
+
+	Sur -- ge, __ Do -- mi -- ne, in %36
+	re -- qui -- em tu --
+	am,
+	tu et ar -- ca san --
+	cti -- fi -- ca -- ti -- o -- nis
+	tu -- ae.
+
+	Pro -- %47
+	pter __ Da -- vid ser -- vum
+	tu -- um non a --
+	ver -- tas fa -- ci -- em Chri -- sti
+	tu -- i.
+
+	Si cu -- %59
+	sto -- di -- e -- rint fi -- li -- i
+	tu -- i te -- sta -- men --
+	tum me -- um et
+	te -- sti -- mo -- ni -- a me -- a haec,
+	quae do -- ce -- bo e --
+	os,
+
+	Quo -- ni -- am e -- %71
+	le -- git Do -- mi -- nus Si -- on,
+	e -- le -- git e -- am in ha -- bi --
+	ta -- ti -- o -- nem si --
+	bi:
+
+	Vi -- du -- am %81
+	e -- ius be -- ne -- di -- cens be -- ne --
+	di -- cam, pau -- pe -- res
+	e -- ius sa -- tu -- ra -- bo pa -- ni --
+	bus.
+
+	Il -- luc __
+	pro -- du -- cam %91
+	cor -- nu Da --
+	vid, pa --
+	ra -- vi lu -- cer -- nam Chri -- sto
+	me -- o.
+
+	Glo -- %106
+	ri -- a Pa -- tri et
+	Fi -- li -- o et __
+	Spi -- ri -- tu -- i
+	San -- cto, %110 finis
+}
