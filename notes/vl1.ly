@@ -655,6 +655,13 @@ MementoViolinoI = {
 	}
 }
 
+ViolinoI = {
+	\relative c' {
+		\clef treble
+
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

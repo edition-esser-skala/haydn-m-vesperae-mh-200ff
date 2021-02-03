@@ -827,6 +827,174 @@ DeProfundisAltoLyrics = \lyricmode {
 	men. %109 finis
 }
 
+SalveteAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \autoBeamOff \tempoSalvete
+		\mvTr d4\fE^\tuttiE fis d
+		g( e) a
+		d,8. d16 d4 r
+		R2.
+		d4 fis d %5
+		g( e) a
+		d,8. d16 d4 d~
+		d d d
+		d d g,
+		a( h) cis %10
+		d r r
+		h d h8 h
+		fis'4  fis r
+		fis4. fis8 fis fis
+		h,8. h16 h4 r8 h %15
+		gis'4 a r8 a
+		d,4 a' r
+		a,2.
+		fis'
+		d4 e2 %20
+		a,4 r r
+		R2.*5 %26
+		r4 r a
+		e'2 e4
+		e2 e4
+		a8. a,16 a4 r %30
+		R2.*2
+		fis'4 fis fis8 fis
+		fis2 fis4
+		h, h r %35
+		R2.
+		h4 h d
+		e( g8[ fis)] e([ d)]
+		cis4. cis8 cis4
+		d4. d8 d4 %40
+		g2.
+		g
+		fis8 fis e4 d
+		a'8. a,16 a4 r
+		R2. %45
+		d4( fis) d
+		g e a
+		d,8. d16 d4 r
+		R2.
+		r4 fis d %50
+		g e a
+		d,8. d16 d4 d~
+		d d d
+		d2 g,4
+		a( h) cis %55
+		d r r
+		R2.
+		r4 h2
+		gis4 a r
+		a a' g! %60
+		fis8. g16 g4 r
+		e4 e4. d8
+		cis4( a d)
+		g, a4. a8
+		d4 r r %65
+		R2.
+		r4 d d
+		cis2( a4)
+		d r r
+		R2. %70
+		r4 d d
+		cis2( a4)
+		d d h'
+		h a r
+		a g r %75
+		g fis fis
+		g a2
+		d,4 r r
+		R2.
+		d2 d4 %80
+		g fis r
+		R2.
+		g
+		d\fermata \bar "|." %84 finis
+	}
+}
+
+SalveteAltoLyrics = \lyricmode {
+	Sal -- ve -- te,
+	flo -- res
+	mar -- ty -- rum,
+
+	sal -- ve -- te, %5
+	flo -- res
+	mar -- ty -- rum, quos __
+	lu -- cis
+	ip -- so in
+	li -- mi -- %10
+	ne
+	Chri -- sti in -- se --
+	cu -- tor,
+	in -- se -- cu -- tor
+	su -- stu -- lit, ceu %15
+	tur -- bo, ceu
+	tur -- bo
+	na --
+	scen --
+	tes ro -- %20
+	sas.
+
+	Vos, %27
+	pri -- ma
+	Chri -- sti
+	vi -- cti -- ma, %30
+
+	grex in -- mo -- la -- %33
+	to -- rum
+	te -- ner, %35
+
+	a -- ram sub
+	ip -- sam
+	sim -- pli -- ces,
+	sim -- pli -- ces %40
+	pal --
+	ma
+	et co -- ro -- nis
+	lu -- di -- tis.
+	%45
+	Je -- su,
+	ti -- bi sit
+	glo -- ri -- a,
+
+	Je -- su, %50
+	ti -- bi sit
+	glo -- ri -- a, qui __
+	na -- tus
+	es de
+	Vir -- gi -- %55
+	ne
+
+	cum
+	Pa -- tre
+	et al -- mo %60
+	Spi -- ri -- tu
+	in sem -- pi --
+	ter --
+	na sae -- cu --
+	la. %65
+
+	A -- men,
+	a --
+	men,
+	%70
+	a -- men,
+	a --
+	men, a -- men,
+	a -- men,
+	a -- men, %75
+	a -- men, a --
+	men, a --
+	men,
+
+	a -- men, %80
+	a -- men,
+
+	a --
+	men. %84 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

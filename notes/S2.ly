@@ -910,3 +910,173 @@ MementoSopranoBLyrics = \lyricmode {
 	Spi -- ri -- tu -- i
 	San -- cto, %110 finis
 }
+
+SalveteSopranoBNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \autoBeamOff \tempoSalvete
+		\mvTr fis4\fE^\tuttiE a a
+		h2 a8([ g)]
+		fis8. fis16 fis4 r
+		R2.
+		fis4 a a %5
+		h2 a8([ g)]
+		fis8. fis16 fis4 fis~
+		fis a g
+		fis d g
+		fis2 e4 %10
+		d r r
+		d fis d'8 h
+		h4 ais r
+		ais4. ais8 h cis
+		cis8. h16 h4 r8 h %15
+		h4 a! r8 e'
+		d4 cis r
+		cis2.
+		a
+		d8([ h)] a4( gis) %20
+		a r r
+		R2.*5 %26
+		r4 a a~
+		a gis a
+		h( a) gis
+		a8. gis16 a4 r %30
+		R2.
+		r4 cis cis~
+		cis ais h
+		cis( h) ais
+		h8([ ais)] h4 r %35
+		R2.
+		fis4 fis fis
+		fis( e) e
+		g4. fis8 e4
+		d4. e8 fis4 %40
+		g2.
+		a
+		a8 a cis4 d
+		d8. cis16 cis4 r
+		R2. %45
+		fis,4( a) a
+		h2 a8 g
+		fis8. fis16 fis4 r
+		R2.
+		r4 a a %50
+		h2 a8 g
+		fis8. fis16 fis4 fis~
+		fis a g
+		fis( d) g
+		fis2 e4 %55
+		d r r
+		R2.
+		r4 fis2
+		h4 a r
+		e fis g %60
+		a8. g16 g4 r
+		g g8([ h)] g([ fis)]
+		e4( e'8[ cis d a])
+		h([ g)] fis4( e8.) d16
+		d4 r r %65
+		R2.
+		r4 fis fis
+		e2( cis'4)
+		d r r
+		R2. %70
+		r4 fis, fis
+		e2( e'8[ cis)]
+		d4 d d
+		cis cis r
+		h h r %75
+		a a \once \slurDashed a(
+		h8) e d4( cis)
+		d r r
+		R2.
+		d,4( e) fis %80
+		g a r
+		R2.
+		g
+		fis\fermata \bar "|." %84 finis
+	}
+}
+
+SalveteSopranoBLyrics = \lyricmode {
+	Sal -- ve -- te,
+	flo -- res
+	mar -- ty -- rum,
+
+	sal -- ve -- te, %5
+	flo -- res
+	mar -- ty -- rum, quos __
+	lu -- cis
+	ip -- so in
+	li -- mi -- %10
+	ne
+	Chri -- sti in -- se --
+	cu -- tor,
+	in -- se -- cu -- tor
+	su -- stu -- lit, ceu %15
+	tur -- bo, ceu
+	tur -- bo
+	na --
+	scen --
+	tes ro -- %20
+	sas.
+
+	Vos, pri -- %27
+	_ ma
+	Chri -- sti
+	vi -- cti -- ma, %30
+
+	grex in --
+	mo -- la --
+	to -- rum
+	te -- ner, %35
+
+	a -- ram sub
+	ip -- sam
+	sim -- pli -- ces,
+	sim -- pli -- ces %40
+	pal --
+	ma
+	et co -- ro -- nis
+	lu -- di -- tis.
+	%45
+	Je -- su,
+	ti -- bi sit
+	glo -- ri -- a,
+
+	Je -- su, %50
+	ti -- bi sit
+	glo -- ri -- a, qui __
+	na -- tus
+	es __ de
+	Vir -- gi -- %55
+	ne
+
+	cum
+	Pa -- tre
+	et al -- mo %60
+	Spi -- ri -- tu
+	in sem -- pi --
+	ter --
+	na sae -- cu --
+	la. %65
+
+	A -- men,
+	a --
+	men,
+	%70
+	a -- men,
+	a --
+	men, a -- men,
+	a -- men,
+	a -- men, %75
+	a -- men, a --
+	men, a --
+	men,
+
+	a -- men, %80
+	a -- men,
+
+	a --
+	men. %84 finis
+}

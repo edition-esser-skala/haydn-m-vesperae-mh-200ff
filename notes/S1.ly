@@ -972,6 +972,176 @@ MementoSopranoALyrics = \lyricmode {
 	a -- men. %116 finis
 }
 
+SalveteSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \autoBeamOff \tempoSalvete
+		\mvTr a'4\fE^\tuttiE d fis
+		e( g) cis,
+		d8. a16 a4 r
+		R2.
+		a4 d fis %5
+		e( g) cis,
+		d8. a16 a4 d~
+		d cis h
+		a fis h
+		a2 g4 %10
+		fis r r
+		h4. h8 fis' d
+		d4 cis r
+		cis4. cis8 d e
+		e8. d16 d4 r8 d %15
+		d4 cis r8 cis
+		fis4 e r
+		e2.
+		cis
+		fis8([ d)] cis4( h) %20
+		a r r
+		R2.*5 %26
+		r4 cis cis~
+		cis h cis
+		d( cis) h
+		cis8. h16 a4 r %30
+		R2.
+		r4 e' e~
+		e cis d
+		e( d) cis
+		d8([ cis)] h4 r %35
+		r r fis'~
+		fis d8([ cis)] h([ a!)]
+		a4( g!) g
+		h4. a8 g4
+		fis4. g8 a4 %40
+		h2.
+		cis
+		d8 a g'4 fis
+		fis8. e16 e4 r
+		R2. %45
+		a,4( d) fis
+		e g cis,
+		d8. a16 a4 r
+		R2.
+		r4 d fis %50
+		e g cis,
+		d8. a16 a4 d~
+		d cis h
+		a( fis) h
+		a2 g4 %55
+		fis r r
+		R2.
+		d'
+		d4 cis a
+		c2 c4 %60
+		c8. h16 h4 r
+		h h h
+		a( g') fis
+		e( d) cis
+		d r r %65
+		R2.
+		r4 d a
+		a2( g'4)
+		fis r r
+		R2. %70
+		r4 d a
+		a2( g'4)
+		fis fis g
+		e fis fis8 cis
+		d4 e e8 h %75
+		cis4 d d~
+		d8 g fis4( e)
+		d r r
+		R2.
+		fis,4( g) a %80
+		h d r
+		R2.
+		h
+		a\fermata \bar "|." %84 finis
+	}
+}
+
+SalveteSopranoALyrics = \lyricmode {
+	Sal -- ve -- te,
+	flo -- res
+	mar -- ty -- rum,
+
+	sal -- ve -- te, %5
+	flo -- res
+	mar -- ty -- rum, quos __
+	lu -- cis
+	ip -- so in
+	li -- mi -- %10
+	ne
+	Chri -- sti in -- se --
+	cu -- tor,
+	in -- se -- cu -- tor
+	su -- stu -- lit, ceu %15
+	tur -- bo, ceu
+	tur -- bo
+	na --
+	scen --
+	tes ro -- %20
+	sas.
+
+	Vos, pri -- %27
+	_ ma
+	Chri -- sti
+	vi -- cti -- ma, %30
+
+	grex in --
+	mo -- la --
+	to -- rum
+	te -- ner, %35
+	a --
+	ram sub
+	ip -- sam
+	sim -- pli -- ces,
+	sim -- pli -- ces %40
+	pal --
+	ma
+	et co -- ro -- nis
+	lu -- di -- tis.
+	%45
+	Je -- su,
+	ti -- bi sit
+	glo -- ri -- a,
+
+	Je -- su, %50
+	ti -- bi sit
+	glo -- ri -- a, qui __
+	na -- tus
+	es __ de
+	Vir -- gi -- %55
+	ne
+
+	cum
+	Pa -- tre et
+	al -- mo %60
+	Spi -- ri -- tu
+  in sem -- pi --
+	ter -- na
+	sae -- cu --
+	la. %65
+
+	A -- men,
+	a --
+	men,
+	%70
+	a -- men,
+	a --
+	men, a -- men,
+	a -- men, a -- men,
+	a -- men, a -- men, %75
+	a -- men, a --
+	men, a --
+	men,
+
+	a -- men, %80
+	a -- men,
+
+	a --
+	men. %84 finis
+}
+
 % SopranoANotes = {
 % 	\relative c' {
 % 		\clef treble

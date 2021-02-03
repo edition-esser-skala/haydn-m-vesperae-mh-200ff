@@ -272,56 +272,105 @@
 	% 		\midi { \tempo 4. = 50 }
 	% 	}
 	% }
+  % \bookpart {
+	% 	\header {
+	% 		number = "6"
+	% 		title = "M E M E N T O,   D O M I N E,   D A V I D"
+	% 	}
+  %   \paper {
+  %     system-system-spacing.basic-distance = #27
+  %     system-system-spacing.minimum-distance = #27
+  %     systems-per-page = #2
+  %   }
+	% 	\tocSection "6" "Memento, Domine, David"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\MementoViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\MementoViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S 1"
+	% 					\new Voice = "SopranoA" { \dynamicUp \MementoSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \MementoSopranoALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoB" { \dynamicUp \MementoSopranoBNotes }
+  %         }
+  %         \new Lyrics \lyricsto SopranoB \MementoSopranoBLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\MementoOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \MementoBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 80 }
+	% 	}
+	% }
   \bookpart {
 		\header {
 			number = "6"
-			title = "M E M E N T O,   D O M I N E,   D A V I D"
+			title = "S A L V E T E,   F L O R E S   M A R T Y R U M"
 		}
     \paper {
       system-system-spacing.basic-distance = #27
       system-system-spacing.minimum-distance = #27
       systems-per-page = #2
     }
-		\tocSection "6" "Memento, Domine, David"
+		\tocSection "6" "Salvete, flores martyrum"
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "vl"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\MementoViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\MementoViolinoII
-						}
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S 1"
-						\new Voice = "SopranoA" { \dynamicUp \MementoSopranoANotes }
+						\new Voice = "SopranoA" { \dynamicUp \SalveteSopranoANotes }
 					}
-					\new Lyrics \lyricsto SopranoA \MementoSopranoALyrics
+					\new Lyrics \lyricsto SopranoA \SalveteSopranoALyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoB" { \dynamicUp \MementoSopranoBNotes }
+            \new Voice = "SopranoB" { \dynamicUp \SalveteSopranoBNotes }
           }
-          \new Lyrics \lyricsto SopranoB \MementoSopranoBLyrics
-				>>
-				\new StaffGroup <<
+          \new Lyrics \lyricsto SopranoB \SalveteSopranoBLyrics
+
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "org" "b" }
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \SalveteAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \SalveteAltoLyrics
+				>>
+				\new PianoStaff <<
+          \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
+					\new Staff {
+						\SalveteOrganoSolo
+					}
+          \new Staff {
+						\set Staff.instrumentName = "b"
 						% \transpose c c,
-						\MementoOrgano
+						\SalveteOrgano
 					}
 				>>
-				\new FiguredBass { \MementoBassFigures }
+				\new FiguredBass { \SalveteBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 130 }
 		}
 	}
 }

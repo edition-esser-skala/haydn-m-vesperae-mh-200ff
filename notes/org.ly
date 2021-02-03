@@ -1341,6 +1341,238 @@ MementoBassFigures = \figuremode {
 	r1 %120 finis
 }
 
+SalveteOrganoSolo = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoSalvete
+		s2.*2 %2
+		r4 <fis d'> <a fis'>
+		<< { e'( g) cis, } \\ { h2 g4 } >>
+		<fis d'> s s %5
+		s2.*15 %20
+		r4 a16 gis fis e e8 e
+		e4 h'16 a gis a h cis d e
+		\appoggiatura d8 cis4 a16 gis fis e e8 e
+		e16 fis e dis e fis gis a h cis d? h
+		cis d cis a d e d a e' fis e a, %25
+		fis' d cis h h2\trill
+		a4 s s
+		s2.*2
+		r4 << { e'8( a) a a } \\ { cis,4 cis8 cis } >> %30
+		<< { \appoggiatura a'8 gis4 h8( d,) d d } \\ { \appoggiatura cis h4 d8( h) h h } >>
+		<< { \appoggiatura d8 cis4 } \\ { \appoggiatura h8 a4 } >> r r
+		s2.*2
+		r4 << { fis'8( h) h h } \\ { d,4 d8 d } >> %35
+		<< { \appoggiatura h'8 ais4 cis,8( e) e e } \\ { \appoggiatura d8 cis4 ais8( cis) cis cis } >>
+		<< { \appoggiatura e8 d4 } \\ { \appoggiatura cis8 h4 } >> s2
+		s2.*6 %43
+		r4 r \appoggiatura d,16 cis8 h16 a
+		a'4( gis g) %45
+		fis r r
+		s2.
+		r4 <fis d'> <a fis'>
+		<< { e'( g) \appoggiatura d16 cis8 h16 a } \\ { h2 g4 } >>
+		<fis d'> r r %50
+		s2.*5 %55
+		r4 << { fis'8( a) g( h) } \\ { d,8( fis) e( g) } >>
+		<< { a2 g4\trill } \\ { fis2 e4 } >>
+		<< fis \\ d >> s s
+		s2.*6 %64
+		r4 d16 cis h a a8 a %65
+		a4 e'16 d cis d e fis g a
+		\appoggiatura g8 fis4 s s
+		s2.
+		r4 d16 cis h a a8 a
+		a16 h a gis a h cis d e fis g a %70
+		\appoggiatura g8 fis4 r r
+		s2.*6 %77
+		fis16 g fis d g a g d a' h a d,
+		h' g fis e e2\trill
+		d4 s s %80
+		s2.
+		\appoggiatura c16 h8 a16 g d'4 r
+		s2.*2 \bar "|." %84 finis
+	}
+}
+
+SalveteOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \tempoSalvete
+		\mvTr d4\fE-\tuttiE fis d
+		g e a
+		d, r \mvTr d\p-\soloE
+		g e a
+		\mvTr d,\f-\tuttiE fis d %5
+		g e a
+		d, d8 fis a fis
+		d4 r r
+		d r g,
+		a h cis %10
+		d d cis
+		h d h
+		fis' fis8 ais cis ais
+		fis4 fis, fis'
+		h8 h, h' d h a! %15
+		gis fis16 gis a h cis h a8 a,
+		d16 e fis gis a h cis h a4
+		r a, a
+		r fis' fis
+		d e e %20
+		a, r << cis' \\ { \mvTr a\p-\soloE } >>
+		<< h \\ gis >> r << gis \\ e >>
+		<< a \\ a, >> r << cis' \\ a >>
+		<< h \\ gis >> r << gis \\ e >>
+		a8 r h r cis r %25
+		<< { d,4 e e } \\ { d8 a' e a e gis } >>
+		a,4 r \mvTr a\f-\tuttiE
+		e'2 r4
+		e e e
+		a, r \mvTr a\p-\soloE %30
+		e' r << gis \\ e >>
+		<< a \\ a, >> \mvTr a'\f-\tuttiE g
+		fis2 r4
+		fis fis fis
+		h, r \mvTr h\p-\soloE %35
+		fis' r << ais \\ fis >>
+		h \mvTr h,\f-\tuttiE d
+		e8 e, g' fis e d
+		cis4 a' cis
+		d d, d %40
+		g8 g, g' g g g
+		g g, g' g g g
+		fis4 e d
+		a' a, r
+		<< { cis d e } \\ { \mvTr a,\p-\soloE h cis } >> %45
+		\mvTr d\f-\tuttiE fis d
+		g e a
+		d, r \mvTr d\pE-\soloE
+		g e a
+		d, \mvTr fis\f-\tuttiE d %50
+		g e a
+		d, d8 fis a fis
+		d4 r r
+		d r g,
+		a h cis %55
+		d r \mvTr g\p-\soloE
+		a h cis
+		d \mvTr h\f-\tuttiE a
+		gis a r
+		a, a' g %60
+		fis g8 h g fis
+		e e, e' g e d
+		cis e cis a d fis
+		g e a4 a,
+		d r << fis' \\ \mvTr d\p-\soloE >> %65
+		<< e \\ cis >> r << cis \\ a >>
+		d r \mvTr d,\f-\tuttiE
+		cis a' a,
+		d r \mvTr << fis' \\ \mvTr d\p-\soloE >>
+		<< e \\ cis >> r << cis \\ a >> %70
+		d r8 \mvTr d,\f-\tuttiE fis d
+		cis e a e cis a
+		d4 r h'~
+		h8 cis16 h a8 a, a'4~
+		a8 h16 a g8 g, g'4~ %75
+		g8 a16 g fis8 e fis d
+		g e a4 a,
+		d8 r \mvTr e\p-\soloE r fis r
+		<< { g4 a a } \\ { g8 d' a cis a cis } >>
+		\mvTr d,4\f-\tuttiE r d %80
+		g fis r
+		\mvTr g\p-\soloE << a \\ fis >> r
+		\mvTr g,2.\f-\tuttiE
+		d'\fermata \bar "|." %84 finis
+	}
+}
+
+SalveteBassFigures = \figuremode {
+	r2.
+	<6>
+	r
+	r
+	r %5
+	<6>
+	r4 <\t>2
+	r2.
+	r
+	<8 6>4 <7> <6 5> %10
+	r2 <6\\>4
+	r2.
+	<6 4>4 <[5] _+>2
+	<_+>2 <6 4>8 <7>
+	<9 4>4 \bo <[8] 3>4. \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff %15
+	<6 5>2.
+	r
+	r
+	r
+	<6>4 <6 4> <[5] _+> %20
+	r2.
+	r
+	r
+	r
+	r %25
+	r
+	r
+	<6 4>4 <[5] _+> <6 4>
+	<7 _+> <6 4> <[5] _+>
+	r2. %30
+	r
+	r2 <2>4
+	<[7] _+>2 <6 4>4
+	<7 _+> <6 4> <[5] _+>
+	r2. %35
+	r
+	r2 <6>8 <5>
+	<9 4>4 <6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<7>4 <\t> <6 5>
+	r2. %40
+	r
+	<2>
+	<[6]>4 <6>2
+	<6 4>4 <[5] 3>2
+	r2. %45
+	r
+	<6>
+	r
+	r
+	r4 <6>2 %50
+	q2.
+	r4 <\t>2
+	r2.
+	r
+	<8 6>4 <7> <6 5> %55
+	r2.
+	r
+	r2 <\t>4
+	<6 5>2.
+	<[5] _!>4 <6 \t> <6 4!> %60
+	<6 5!> r4. <\t>8
+	r2 r8 <\t>
+	<6 5>2.
+	<6>4 <6 4> <[5] 3>
+	r2. %65
+	r
+	r
+	<[6]>2 <7>4
+	r2.
+	r %70
+	r
+	<[6]>2 <6 5>4
+	r2 <6>4
+	<2> <6> q8 <5>
+	<2>4 <6> q8 <5> %75
+	<2>4 <6>2
+	<5>8 <8> <6 4>4 <[5] 3>
+	r2.
+	r
+	r %80
+	r4 <6>2
+	r2.
+	r
+	r %84 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
