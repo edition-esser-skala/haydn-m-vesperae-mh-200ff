@@ -678,6 +678,8 @@ tempoBeatus = \tempoMarkup "Vivace assai"
 tempoDeProfundis = \tempoMarkup "Allegretto"
 tempoMemento = \tempoMarkup "Allegro moderato"
 tempoSalvete = \tempoMarkup "Allegro"
+tempoMagnificat = \tempoMarkup "Adagio"
+	tempoMagnificatB = \tempoMarkup "[Allegro]"
 
 lyleft = \override LyricText.self-alignment-X = #LEFT
 

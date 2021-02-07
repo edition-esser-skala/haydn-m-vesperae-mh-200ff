@@ -1080,3 +1080,151 @@ SalveteSopranoBLyrics = \lyricmode {
 	a --
 	men. %84 finis
 }
+
+MagnificatSopranoBNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoMagnificat
+		r2 r8 \mvTr g'\fE^\tutti b4~
+		b8. b16 a4 g4. g16 g
+		a4 g f4. f8 \noBreak
+		e c'([ a f)] c'8. c,16 c4\fermata \bar "||"
+		\tempoMagnificatB R1*18 %22
+		r2 r4 \mvTr c'8\fE^\tutti c
+		d c c c d c c([ h)]
+		c4 r r2 %25
+		R1*3
+		r2 r4 r8 c
+		d4 h c r %30
+		R1*4
+		r4 r8 a d4 b %35
+		a r r2
+		R1*11 %47
+		\mvTr b4\fE^\tutti f d'8([ b)] g c
+		a16 g f8 r b b8. b16 a4
+		b8.([ c16)] d8 b a8. a16 b4 %50
+		a b8 f a8. a16 b4
+		b8 a r f b a r a
+		c b r b d([ c)] es([ d)]
+		d4. c8 b c b([ a)]
+		b4 r r2 %55
+		r r4 r8 \mvTr f'\pE^\solo
+		\appoggiatura es d8 c16([ b)] a([ b)] d([ b)] f8([ a)] b c
+		\appoggiatura es4 d2 c4 r8 a
+		b16([ c d b)] c([ d es c)] d([ f es g] f8) f,
+		f4( es8.) es16 d4 r %60
+		d' d8 g fis16([ d)] d4 c16([ a)]
+		g8 b b4 a r8 d
+		\appoggiatura c h8. h16 h8 h \appoggiatura d c c r c
+		\appoggiatura g' fis fis r d d g r g,
+		g4.( \grace b16 a8) g4 r %65
+		R1*18 %83
+		\mvTr a4\fE^\tutti f8 g a4. a8
+		f8. f16 d'4 c16 c c8 r4 %85
+		R1
+		a4 a g8. g16 b4
+		b( a) g r
+		R1
+		a4 g a8 a g g %90
+		f8. f16 g8 b a a g g
+		f4 f r2
+		g4 g g8 a16 g c([ b)] a([ g)]
+		f4 f8 f f g16 f b([ a)] g([ f)]
+		e4 e f8( a4) g8 %95
+		f4( e) f r
+		r2 r4 b~
+		b8[ a16 b] g8[ c] a[ g f g]
+		a4 h c e,8([ f]
+		g4.) g8 a16[ c b c] a8[ g] %100
+		f4 g4. b8 a([ g)]
+		g4( f) e r8 g
+		a4 r8 c d4 r8 d
+		e4 r8 e f4 r8 f
+		g4 r8 g,( a4 c) %105
+		g4. g8( a4 c)
+		g4. g8( f) g f([ e)]
+		f4 \mvTr c'\pE^\solo b a
+		g e f8[ a g f]
+		e4 r r2 %110
+		R1
+		\mvTr e4.\fE^\tutti g8 f g f([ e)]
+		f4 r r2
+		R1
+		e4.\p g8 f g f([ e)] %115
+		f4 r r g\f
+		a b a g
+		a r r2\fermata \bar "|." %118 FINIS
+	}
+}
+
+MagnificatSopranoBLyrics = \lyricmode {
+	Ma -- gni --
+	fi -- cat a -- ni -- ma,
+	me -- a Do -- mi --
+	num, ma -- gni -- fi -- cat.
+
+	O -- mnes, %23
+	o -- mnes ge -- ne -- ra -- ti -- o --
+	nes. %25
+
+	Qui %29
+	po -- tens est. %30
+
+	Qui po -- tens %35
+	est.
+
+	Fe -- cit, fe -- cit po -- %48
+	ten -- ti -- am in brac -- chi -- o
+	su -- o, po -- ten -- ti -- am %50
+	fe -- cit in brac -- chi -- o
+	su -- o; dis -- per -- sit su --
+	per -- bos, su -- per -- bos
+	men -- te cor -- dis su --
+	i. %55
+	De --
+	po -- su -- it po -- ten -- tes de
+	se -- de, et
+	ex -- al -- ta -- vit
+	hu -- mi -- les. %60
+	E -- su -- ri -- en -- tes im --
+	ple -- vit bo -- nis, et
+	di -- vi -- tes di -- mi -- sit in --
+	a -- nes, di -- mi -- sit in --
+	a -- nes. %65
+
+	Glo -- ri -- a Pa -- tri, %84
+	glo -- ri -- a Fi -- li -- o %85
+
+	et Spi -- ri -- tu -- i
+	San -- cto,
+
+	si -- cut e -- rat in prin -- %90
+	ci -- pi -- o et nunc et nunc et
+	sem -- per
+	et in sae -- cu -- la sae -- cu --
+	lo -- rum, in sae -- cu -- la sae -- cu --
+	lo -- rum, a -- men, %95
+	a -- men,
+	a --
+	_ _
+	_ _ men, a --
+	men, a -- _ %100
+	_ _ _ men,
+	a -- men, a --
+	men, a -- men, a --
+	men, a -- men, a --
+	men, a -- %105
+	men, a --
+	men, a -- men, a --
+	men, a -- _ _
+	_ _ _
+	men, %110
+
+	a -- men, a -- men, a --
+	men,
+
+	a -- men, a -- men, a -- %115
+	men, a --
+	men, a -- men, a --
+	men. %118 FINIS
+}

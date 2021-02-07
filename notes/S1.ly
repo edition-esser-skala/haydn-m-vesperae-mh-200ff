@@ -1142,13 +1142,190 @@ SalveteSopranoALyrics = \lyricmode {
 	men. %84 finis
 }
 
-% SopranoANotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoALyrics = \lyricmode {
-%
-% }
+MagnificatSopranoANotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoMagnificat
+		r8 \mvTr c'\fE^\tutti f4~ f8. e16 e8 e
+		f8. c16 c4 b4. c16 b
+		a8 c16 c c4. f16([ a,)] h8. h16 \noBreak
+		c8 c([ a f)] c'8. c,16 c4\fermata \bar "||"
+		\tempoMagnificatB R1*5 %9
+		\mvTr f'4\pE^\solo a,8 b c4. cis8 %10
+		d8. d16 g4 e8 f r4
+		r2 r4 r8 c
+		\appoggiatura b16 a8 g16([ f)] e([ f)] a([ f)] b4. c8
+		b4( a)\trill g r
+		c g8 b \appoggiatura b a4 a8 cis %15
+		cis4( d8) c \appoggiatura c h4 h8 g
+		g'2 f4. d8
+		c es es4 d r
+		c g e!8 g r g
+		c4 g e8 g r g %20
+		g([ c)] c g g([ f')] f4
+		e16([ f)] g([ e)] c([ d)] e([ c)] a8([ f' e)] d
+		c4( d)\trill c \mvTr e8\fE^\tutti e
+		f e e e f e d4
+		c r r2 %25
+		R1*3
+		r2 r4 r8 e
+		f4 d e r %30
+		R1*4
+		r4 r8 f f4 e %35
+		f r r2
+		R1*10 %46
+		\mvTr f4\fE^\tutti b, g'8[( es)] c8 f
+		d16 c b8 r f' f8. f16 e4
+		f4. es16 d c8([ g')] f16([ es)] d([ c)]
+		d8.([ es16)] f8 b, c8. c16 b4 %50
+		c b8 b es8. es16 d4
+		d8 c r f, d' c r c
+		es d r d f([ es)] g([ f)]
+		f4. es8 d es d([ c)]
+		b4 r r2 %55
+		R1*12 %67
+		\mvTr d8\pE^\solo d4 g16([ d)] es8. es16 d4
+		c8( es4) d16 c b([ a)] g8 r4
+		r2 d'4. g,8 %70
+		es'4 c8 b a16([ c)] es([ g)] f([ es)] d c
+		d([ c)] b8 r4 r2
+		R1
+		r2 c4 c8 f
+		\appoggiatura f16 e8 d16([ c)] c4 r8 c c f %75
+		\appoggiatura f16 e8([ d16 c)] c4 r f~
+		f16[ e] d([ c)] f([ e)] d([ c)] b8. c16 d8 d
+		d2~ d4 c8 b
+		a16([ c b a] b[ c d e] f[ g f e]) f8 f
+		f16([ g f e)] f8 f e16([ d c d] e[ f e f] %80
+		g8.) b,16 a8 b a4( g8.)\trill f16
+		f4 r r2
+		R1
+		\mvTr f'4\fE^\tutti a,8 b c4. cis8
+		d8. d16 g4 e16 e f8 r4 %85
+		c2 c
+		c~ c8. c16 g'4
+		g( f) e r
+		R1
+		c4. e8 f c c b %90
+		a8. b16 c8 e f c c b
+		a8.([ b16)] c4 d d
+		d8 e16 d g([ f)] e([ d)] c4 c8 c
+		c d16 c f([ e)] d([ c)] b4 b
+		b16([ e g f] e[ d c b] a8 c4) b8 %95
+		a4( g)\trill f f'~
+		f8[ e16 f] d8[ g] e8[ d c d]
+		e2 f4 a,8([ b]
+		c4 d) g, r
+		r2 r4 f'~ %100
+		f8[ e16 f] d8[ g] e[ d] c([ b)]
+		b4( a)\trill g r
+		r8 c([ a)] f r f([ d')] g,
+		r g([ e')] a, r a([ f')] b,
+		r b([ g')] c, r4 c~ %105
+		c c c2~
+		c8[ g' e b] a b a([ g)]
+		f4 r8 \mvTr f'4\pE^\solo e d8~
+		d c4 b8 a[ d c h]
+		c4 r r2 %110
+		R1
+		\mvTr g'4.\fE^\tutti b,8 a b a([ g)]
+		f4 r r2
+		R1
+		g'4.\p b,8 a b a([ g)] %115
+		f4 r r c'\f
+		c e f e
+		f r r2\fermata \bar "|." %118 FINIS
+	}
+}
+
+MagnificatSopranoALyrics = \lyricmode {
+	Ma -- gni -- fi -- cat, ma --
+	gni -- fi -- cat a -- ni -- ma,
+	a -- ni -- ma me -- a
+	Do -- mi -- num, ma -- gni -- fi -- cat.
+
+	Et ex -- ul -- ta -- vit %10
+	spi -- ri -- tus me -- us
+	in
+	De -- o sa -- lu -- ta -- ri
+	me -- o,
+	qui -- a re -- spe -- xit hu -- %15
+	mi -- li -- ta -- tem an --
+	cil -- lae, an --
+	cil -- lae su -- ae;
+	ec -- ce e -- nim ex
+	hoc be -- a -- tam, be -- %20
+	a -- tam me di -- cent
+	o -- mnes ge -- ne -- ra -- ti --
+	o -- nes, o -- mnes,
+	o -- mnes ge -- ne -- ra -- ti -- o --
+	nes. %25
+
+	Qui %29
+	po -- tens est. %30
+
+	Qui po -- tens %35
+	est.
+
+	Fe -- cit, fe -- cit po -- %47
+	ten -- ti -- am in brac -- chi -- o
+	su -- o, in brac -- chi -- o
+	su -- o, po -- ten -- ti -- am %50
+	fe -- cit in brac -- chi -- o
+	su -- o; dis -- per -- sit su --
+	per -- bos, su -- per -- bos
+	men -- te cor -- dis su --
+	i. %55
+
+	Su -- sce -- pit Is -- ra -- el, %68
+	pu -- e -- rum su -- um,
+	re -- cor -- %70
+	da -- tus mi -- se -- ri -- cor -- di -- ae
+	su -- ae,
+
+	sic -- ut lo --
+	cu -- tus est ad pa -- tres %75
+	no -- stros, A --
+	bra -- ham et se -- mi -- ni, et
+	se -- mi -- ni,
+	se -- mi -- ni
+	e -- ius in sae -- %80
+	cu -- la, in sae -- cu --
+	la.
+
+	Glo -- ri -- a Pa -- tri,
+	glo -- ri -- a Fi -- li -- o %85
+	et Spi --
+	ri -- tu -- i
+	San -- cto,
+
+	si -- cut e -- rat in prin -- %90
+	ci -- pi -- o et nunc et nunc et
+	sem -- per et in
+	sae -- cu -- la sae -- cu -- lo -- rum, in
+	sae -- cu -- la sae -- cu -- lo -- rum,
+	a -- men, %95
+	a -- men, a --
+	_ _
+	_ men, a --
+	men,
+	a -- %100
+	_ _ men,
+	a -- men,
+	a -- men, a -- men,
+	a -- men, a -- men,
+	a -- men, a -- %105
+	men, a --
+	_ men, a --
+	men, a -- _ _
+	_ _ _
+	men, %110
+
+	a -- men, a -- men, a --
+	men,
+
+	a -- men, a -- men, a -- %115
+	men, a --
+	men, a -- men, a --
+	men. %118 FINIS
+}

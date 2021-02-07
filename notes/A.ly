@@ -995,13 +995,183 @@ SalveteAltoLyrics = \lyricmode {
 	men. %84 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+MagnificatAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoMagnificat
+		R1
+		r8 \mvTr c\fE^\tutti f4~ f8. f16 e4
+		f8 f16 f e8 e d4. d8 \noBreak
+		c c'([ a f)] c'8. c,16 c4\fermata \bar "||"
+		\tempoMagnificatB R1*18 %22
+		r2 r4 \mvTr c8\fE^\tutti c
+		g' c, c c g' c g4
+		c, r r2 %25
+		R1*2
+		\mvTr c4\pE^\solo e8([ g)] c4. d16([ h)]
+		c4. d16([ h)] c4 g8 \mvTr a\fE^\tutti
+		f4 g c, r %30
+		r2 \mvTr c'\pE^\solo
+		d,4. a'8 b2
+		c, a'4 e
+		f8 a c d c4( b)
+		a r8 \mvTr d,\fE^\tutti b4 c %35
+		f r r2
+		\mvTr a\pE^\solo a
+		a4 a a4. g16 a
+		\appoggiatura g f8.([ e16)] d4 e4. g16([ e)]
+		\appoggiatura d8 cis8. cis16 d4 b'4. g16([ e)] %40
+		\appoggiatura d8 cis8. cis16 d8 e f16([ e d cis] d[ e)] f g
+		a8 e r4 r8 a a a
+		b8. b16 h4 c4 cis8 cis
+		d8.([ a16] b[ g)] b g f4( e)\trill
+		d r r2 %45
+		R1*3
+		\mvTr f4\fE^\tutti b, g'8([ es)] c f
+		d16 c b8 r f' f2~ %50
+		f8. f16 f8 d c8. c16 b4
+		f'8 f r4 r8 f e! f
+		r f e! f r4 r8 f
+		g f g a b g f4
+		b, r r2 %55
+		R1*12 %67
+		\mvTr b'8\pE^\solo b4 b8 c8. c16 b4
+		a8( c4) b16 a g([ fis)] g8 r4
+		R1*2 %71
+		f4. f8 b4 g8 f
+		e!16([ g)] b([ d)] c([ b)] a g a([ g)] f8 r4
+		R1
+		g4 g8 b \appoggiatura b16 a8 g16([ f)] f4 %75
+		r8 g g b \appoggiatura b16 a8([ g16 f)] f4
+		r2 r4 b~
+		b16[ a] g[( fis?)] b([ a)] g([ f)] e8. f16 g8 g
+		f16([ a g f] g[ a b g] a[ b a g]) a8 a
+		a16([ b a g)] a8 a g16([ f e f] g[ a g a] %80
+		b8.) g16 f8 g f4( e8.)\trill f16
+		f4 r r2
+		R1
+		\mvTr f4\fE^\tutti f8 f f4. f8
+		b,8. b16 b'4 b16 b a8 r4 %85
+		R1
+		f4 f e e8 e
+		f4( d8[ h)] c4 r
+		R1
+		f4 e8([ c)] f f e e %90
+		f8. f16 e8 c f f e e
+		f4 f b~ b16[ a] g[( f)]
+		e8. e16 e4 a,( a'16[ g)] f([ e)]
+		d4 d r8 d g16([ f)] e d
+		c4 c f4. b,8 %95
+		c2 f4 r
+		R1
+		r2 r4 f~
+		f8[ e16 f] d8[ g] e[ d c d]
+		e2 f4 c~ %100
+		c h c c8 c
+		c4( f) c r8 e
+		f4 r8 a, b4 r8 h
+		c4 r8 cis d4 r8 d
+		e4 r8 e( f2) %105
+		e4. e8( f2)
+		e4 c( f8) b, c4
+		f \mvTr a\pE^\solo g f
+		e c f e8[ d]
+		c4 r r2 %110
+		R1
+		\mvTr c4.\fE^\tutti e8 f b, c4
+		f r r2
+		R1
+		c4.\p c8 f b, c4 %115
+		f r r e\f
+		f c f c
+		f r r2\fermata \bar "|." %118 FINIS
+	}
+}
+
+MagnificatAltoLyrics = \lyricmode {
+	Ma -- gni -- fi -- cat %2
+	a -- ni -- ma me -- a Do -- mi --
+	num, ma -- gni -- fi -- cat.
+
+	O -- mnes, %23
+	o -- mnes ge -- ne -- ra -- ti -- o --
+	nes. %25
+
+	Qui -- a fe -- cit %28
+	mi -- hi ma -- gna qui
+	po -- tens est, %30
+	et
+	san -- ctum no --
+	men, san -- ctum,
+	san -- ctum no -- men e --
+	ius, qui po -- tens %35
+	est,
+	et mi --
+	se -- ri -- cor -- di -- a
+	e -- ius a pro --
+	ge -- ni -- e in pro -- %40
+	ge -- ni -- es ti -- men -- ti -- bus
+	e -- um, mi -- se -- ri --
+	cor -- di -- a e -- ius ti --
+	men -- ti -- bus e --
+	um. %45
+
+	Fe -- cit, fe -- cit po -- %49
+	ten -- ti -- am, po -- %50
+	ten -- ti -- am in brac -- chi -- o
+	su -- o; dis -- per -- sit
+	su -- per -- bos, su --
+	per -- bos men -- te cor -- dis su --
+	i. %55
+
+	Su -- sce -- pit Is -- ra -- el, %68
+	pu -- e -- rum su -- um,
+
+	re -- cor -- da -- tus mi -- %72
+	se -- ri -- cor -- di -- ae su -- ae,
+
+	sic -- ut lo -- cu -- tus est %75
+	ad pa -- tres no -- stros,
+	A --
+	bra -- ham et se -- mi -- ni, et
+	se -- mi -- ni
+	e -- ius in sae -- %80
+	cu -- la, in sae -- cu --
+	la.
+
+	Glo -- ri -- a Pa -- tri,
+	glo -- ri -- a Fi -- li -- o %85
+
+	et Spi -- ri -- tu -- i
+	San -- cto,
+
+	si -- cut e -- rat in prin -- %90
+	ci -- pi -- o et nunc et nunc et
+	sem -- per et __ in
+	sae -- cu -- la sae -- cu --
+	lo -- rum, in sae -- cu -- la
+	sae -- cu -- lo -- rum, %95
+	a -- men,
+
+	a --
+	_ _
+	_ men, a -- %100
+	_ men, a -- men,
+	a -- men, a --
+	men, a -- men, a --
+	men, a -- men, a --
+	men, a -- %105
+	men, a --
+	men, a -- men, a --
+	men, a -- _ _
+	_ _ _ _
+	men, %110
+
+	a -- men, a -- men, a --
+	men,
+
+	a -- men, a -- men, a -- %115
+	men, a --
+	men, a -- men, a --
+	men. %118 FINIS
+}

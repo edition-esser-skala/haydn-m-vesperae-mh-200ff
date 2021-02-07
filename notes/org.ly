@@ -1573,13 +1573,255 @@ SalveteBassFigures = \figuremode {
 	r %84 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+MagnificatOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoMagnificat
+		\mvTr f4\fE-\tutti r8 f c' c, r c
+		f f, r f' g c, r c
+		f f e e d d d d \noBreak
+		c4 c c r\fermata \bar "||"
+		\tempoMagnificatB f4-\solo r r8 f f f \noBreak %5
+		b, b' b b b a r e
+		f f a f r b g e
+		f f e c r f c' c,
+		f b, c c f c a c
+		f,4\p r r8 f' f f %10
+		b, b' b b b a r e\f
+		f f a f r b g e
+		r f\p a f r g e c
+		f f, d' h c c' c,\fz d
+		e4 r8 e\p f4 r8 e %15
+		f f, f' fis g g, r h
+		c c es c r f d h
+		r c es c r f d h
+		c4 r c' g
+		c, r c' g %20
+		c, r8 c h4 r8 h
+		c r e r f4 r8 f
+		e a f g c c, r \mvTr c'\fE-\tutti
+		h c r c, h c g' g,
+		c c-\solo e c r f d h %25
+		r c e c r f d h
+		c c f d g c, g' g,
+		c4 r c8\p d e f
+		e c16 d e8 f e4 r8 \mvTr a\f-\tutti
+		f r g r c,4 r8 a-\solo %30
+		f r g r c c'\p a g
+		fis a fis d g b g f
+		e g e c f c g' c,
+		a'4 r8 f g g c, c
+		f4 r8 \mvTr d'\fE-\tutti b r c r %35
+		f,4 r8 d-\solo b r c r
+		f4 r a\p r
+		d, r a r
+		d8 d f d g g g g
+		r g f d g g g g %40
+		r g f cis d d b b
+		a16 a\f h cis d e f d a'8 a, r a'~\p
+		a g! r f e r a r
+		f f g g a g a a,
+		d\fE d f d r g e cis %45
+		r d f d r e cis a
+		d-\tutti f b d, es c f a,
+		b b' a d b g c c,
+		f es d b es c f f,
+		b b' b, d es es' d d, %50
+		es es' d d, c f b b,
+		f' f' f, r r f e f
+		r f e! f r4 r8 f
+		g f g a b es, f f,
+		b b-\solo a f r b f' es %55
+		d es f f, b4 r
+		r8 b\p d b r es d a
+		r b g' e r f es c
+		d d f f b4 r8 d,
+		c c f, f b b'\fz fis d %60
+		r g\p b g r c a fis
+		r g b g r c a fis
+		r f f4\fz r8 es es4
+		r8 c\ff c4 r8 b(\pp c cis)
+		d( cis) d d g, g'\f b g %65
+		r c a fis r g b g
+		r a fis d g b, c d
+		g4 r8 g\p fis( g) r g,
+		c a r d g g, r es'\f
+		c r d r g, g'16\p fis g8 b %70
+		c c, es c r f a f
+		b b d b r g b g
+		r c, e! c f4 r8 d\f
+		b r c r f, f'\p a f
+		c' c, e c f f a h, %75
+		c b'! g e f r f r
+		f4 r8 f g4 r
+		g, r8 b c c16 d e8 c
+		f f f f f a c a
+		f a f h, c4 r %80
+		c8 e f b, c b c c
+		f,4\f r r8 f' f f
+		b, b' b b b a r16 a c a
+		f4-\tutti r r8 f f f
+		b, b' b b b a r e %85
+		f f a f r b g e
+		r f a f r b g e
+		f f d h c[ r16 c] c' a b g
+		f8 f e c r f c' e,
+		f f e c r f c' e, %90
+		f f e c r f c' e,
+		f f a f b b, b'16 a g f
+		e8 e' e e, a a, a'16 g f e
+		d8 d' d d, g g, g'16 f e d
+		c8 c' c c, r f, f' b, %95
+		c c c c f,4 \clef treble << {
+			f'''~
+			f8 e16 f d8 g e d c d
+			e2 f4 <a, c>8 <g b>
+			<a c>4 <h d> c
+		} \\ {
+			r4
+			r2 r4 b~
+			b8 a16 b g8 c a g f4~
+			f8 e16 f d8 g <e g> <d f>
+		} >> \clef bass b4~
+		b8 a16 b g8 c a g f e %100
+		d2 c8 c e c
+		f f, a f c' c e c
+		f4 r8 a, b4 r8 h
+		c4 r8 cis d4 r8 d
+		e4 r8 e f f a f %105
+		r b g e r f a f
+		r b g e f b, c c
+		f4 \clef treble \mvTr a'\pE-\solo g f
+		e c f e8 d
+		c \clef bass c,[\f e c] r f a f %110
+		r b g e r f a f
+		r c'-\tutti c, e f b, c c
+		f, f'\p a f r f a f
+		r b g e r f a f
+		r c' c, e f b, c c %115
+		f, f' c\fE c' f, f' c, c'
+		f, f' c, c' f, f' c, c'
+		f,4 r r2\fermata \bar "|." %118 FINIS
+	}
+}
+
+MagnificatBassFigures = \figuremode {
+	r2 <4>4 <7>
+	<4> <3> <7 4> <\t 3>
+	r <6> <7> <6!>
+	r <6 4> <\t \t>8 <[5] 3>4.
+	r2.. <5+>8 %5
+	r4 <6> <2>8 <6>4 <[6]>8
+	r2 r8 <2> <\t>4
+	r4 \bo <[6]>2 \bc <[7]>4
+	r <6 4>8 <[5] 3> r2
+	r2.. <5+>8 %10
+	r4 <6> <2>8 <6>4 <[6]>8
+	r2 r8 <2> <\t>4
+	r2 r8 <6>4.
+	<9 4>4 <5>8 <\t> r2
+	<[6]>4. <5>8 <9 4> <[8] 3>4 <6\\>8 %15
+	<5+> <\t> <6> <5!> <4> <_!>4 <[6]>8
+	<_->2 r8 <4! 2> <\t \t>4
+	r8 <[_-]>2 <4! 2>8 <\t \t>4
+	<_!>2. <7 _!>4
+	r2. q4 %20
+	r2 <6 5>
+	r4 <[6]> r4. <4! 2>8
+	<[6]>4 <6 5>8 <_!> r2
+	<6 5> q4 <4>8 <_!>
+	r2 r8 <4! 2> <\t \t>4 %25
+	r2 r8 <4! 2> <\t \t>4
+	r2 <_!>4 <4>8 <_!>
+	r2.. <4! 2>8
+	<6>4. <4! 2>8 <6>2
+	<6>4 <_!>2. %3ß
+	<6>4 <_!>2 <6\\>8 <6- 4>
+	<6 5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4. <6- 4>8
+	<6 5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 <6>
+	q4. q8 <4>4 <7>
+	r2 <6 5>4 <[7]> %35
+	r2 <6>
+	r <_+>
+	r q
+	r <6>
+	r8 <4+ 2> <[6]>4 <6>2 %40
+	r8 <4+ 2> \bo <[6]> \bc q r4. <5>16 <6>
+	<_+>2 q
+	<2>4. <4! 2>8 <6!>4 <_+>
+	<[6]>2 <6 4>4 <[5] _+>
+	r2 r8 <4+ 2> <\t \t>4 %45
+	r2 r8 <6\\>4.
+	r8 <\t>4 q8 <6 5>2
+	r4 <6> <6 5> <_!>
+	r8 <\t> <6>4 <6 5>2
+	r <2>8 <\t> <6>4 %50
+	<2>8 <\t> <6>4 <6 _->8 <\t \t>4.
+	<6 4>8 <[5 3]> r4. <1>8 q q
+	r q q q r4. <6>8
+	<7> <6> <7> <5-> r <6> <6 4> <[5] 3>
+	r4 \bo <[6]>2 r8 \bc <[2]> %55
+	\bo <[6 \l]>4 <6 4>8 \bc <[5 3]> r2
+	r2 r8 <2> <6> <[6]>
+	<4-> <\t> <5> <\t> r4 <\t>
+	\bo <[6]>2.. \bc q8
+	<5 4>4 <7->2 \bo <[5]>8 \bc <[_+]> %60
+	r2 r8 <4+ 2> <\t \t>4
+	r2 r8 <4+ 2> <\t \t>4
+	r8 <4! 2>2 <6>4.
+	r8 <4+ 2>2 <[6]>8 <_-> <_!>
+	<6 4> <7 [_!]> <4> <_+> r2 %65
+	r8 <4+ 2> <\t \t>4 r2
+	r8 <6\\>4. r4 <6 5 [_-]>8 <_+>
+	r2 <7->8 <\t> <5>4
+	<6 5 _->8 <\t \t \t>4 <_+>8 r2
+	<6 _->4 <7 _+> <9 4>8 \bo <[8] 3>4 \bc <[6]>8 %70
+	<[_-]>1
+	r
+	<[7] _!>
+	<6>4 <7> <9 4>8 <[8] 3>4.
+	<[7]>2.. <7>8 %75
+	r <2> <\t> <5> r2
+	r1
+	r4. <[6]>8 <9>4 <6>8 <7>
+	r4 <7 2> <8>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4. <7>8 r2 %80
+	<7>4. <6>8 <6 4>4 <[5] 3>
+	r2.. <5+>8
+	r4 <6> <2>8 <6>4.
+	r2.. <5+>8
+	r4 <6> <2>8 <6>4 <[6]>8 %85
+	r2 r8 <2> <\t>4
+	r2 r8 <2> <\t> <5>
+	<9 4>4 <5>8 <7> r2
+	r4 \bo <[6 \l]>2 r8 <6 5>
+	r4 <6>2 r8 <6 5> %90
+	r4 <6>2 r8 \bc <[6 5]>
+	r1
+	<7>2 q
+	q q
+	q2.. <6>8 %95
+	<6 4>4 <[5] 3>2.
+	r1
+	r
+	r2. <4 2>8 <5 3>
+	<2>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>2 %100
+	<5>4 <6!> r8 <9 7-> <6 4> <7>
+	<9 4>4 <6>2.
+	r4. <6>2 q8
+	r4. q2 q8
+	<5>4. <6>8 r2 %105
+	r8 <2> <\t>4 r2
+	r8 <2> <\t> <5> r <6> <6 4> <[5] 3>
+	r4 <6> <7>8 <6> <7> <6>
+	<7> <6>4. <5>8 <6> q <6!>
+	r1 %110
+	r8 <2> <\t>4 r2
+	r8 <7>2 <6>8 <6 4> <[5] 3>
+	r1
+	r8 <2> <\t>2.
+	r8 <7>2 <6>8 <6 4> <[5] 3> %115
+	r1
+	r
+	r %118 FINIS
+}

@@ -324,53 +324,107 @@
 	% 		\midi { \tempo 4 = 80 }
 	% 	}
 	% }
+  % \bookpart {
+	% 	\header {
+	% 		number = "6"
+	% 		title = "S A L V E T E,   F L O R E S   M A R T Y R U M"
+	% 	}
+  %   \paper {
+  %     system-system-spacing.basic-distance = #27
+  %     system-system-spacing.minimum-distance = #27
+  %     systems-per-page = #2
+  %   }
+	% 	\tocSection "6" "Salvete, flores martyrum"
+	% 	\score {
+	% 		<<
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S 1"
+	% 					\new Voice = "SopranoA" { \dynamicUp \SalveteSopranoANotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoA \SalveteSopranoALyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoB" { \dynamicUp \SalveteSopranoBNotes }
+  %         }
+  %         \new Lyrics \lyricsto SopranoB \SalveteSopranoBLyrics
+  %
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \SalveteAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \SalveteAltoLyrics
+	% 			>>
+	% 			\new PianoStaff <<
+  %         \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
+	% 				\new Staff {
+	% 					\SalveteOrganoSolo
+	% 				}
+  %         \new Staff {
+	% 					\set Staff.instrumentName = "b"
+	% 					% \transpose c c,
+	% 					\SalveteOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \SalveteBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 130 }
+	% 	}
+	% }
   \bookpart {
 		\header {
-			number = "6"
-			title = "S A L V E T E,   F L O R E S   M A R T Y R U M"
+			number = "8"
+			title = "M A G N I F I C A T"
 		}
-    \paper {
-      system-system-spacing.basic-distance = #27
-      system-system-spacing.minimum-distance = #27
-      systems-per-page = #2
-    }
-		\tocSection "6" "Salvete, flores martyrum"
+    \paper { systems-per-page = #2 }
+		\tocSection "8" "Magnificat"
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "vl"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\MagnificatViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\MagnificatViolinoII
+						}
+					>>
+				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S 1"
-						\new Voice = "SopranoA" { \dynamicUp \SalveteSopranoANotes }
+						\new Voice = "SopranoA" { \dynamicUp \MagnificatSopranoANotes }
 					}
-					\new Lyrics \lyricsto SopranoA \SalveteSopranoALyrics
+					\new Lyrics \lyricsto SopranoA \MagnificatSopranoALyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoB" { \dynamicUp \SalveteSopranoBNotes }
+            \new Voice = "SopranoB" { \dynamicUp \MagnificatSopranoBNotes }
           }
-          \new Lyrics \lyricsto SopranoB \SalveteSopranoBLyrics
+          \new Lyrics \lyricsto SopranoB \MagnificatSopranoBLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \SalveteAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \MagnificatAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \SalveteAltoLyrics
+					\new Lyrics \lyricsto Alto \MagnificatAltoLyrics
 				>>
-				\new PianoStaff <<
-          \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
+				\new StaffGroup <<
 					\new Staff {
-						\SalveteOrganoSolo
-					}
-          \new Staff {
-						\set Staff.instrumentName = "b"
+						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\SalveteOrgano
+						\MagnificatOrgano
 					}
 				>>
-				\new FiguredBass { \SalveteBassFigures }
+				\new FiguredBass { \MagnificatBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 130 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
