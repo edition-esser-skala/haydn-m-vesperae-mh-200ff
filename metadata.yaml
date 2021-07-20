@@ -1,0 +1,17 @@
+composer: Haydn, Johann Michael
+title: Pro Festo SS: Innocentium Vesperae
+id: MH 200/294/304/307
+genre: vesper
+scoring: 2 S, A (solo), 2 S, A (coro), 2 vl, b, org solo
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 451
+    type: manuscript copy
+    date: 1805–1810
+    rism: 456009471
+    url: http://daten.digitale-sammlungen.de/bsb00051606/image_1
+github: haydn-m-vesperae-MH-200ff
+imslp: Vesperae_pro_festo_sanctissimae_Innocentium_MH_200/294/304/307_(Haydn,_Michael)
+notes:
+
