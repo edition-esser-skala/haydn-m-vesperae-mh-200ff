@@ -1,32 +1,13 @@
-# Johann Michael Haydn: Pro Festo SS: Innocentium Vesperae MH 200/294/304/307
+# Description
 
-Engraving files for LilyPond 2.22.0
+Source files for scores published by Edition Esser-Skala.
 
 
 ## Requirements
 
-* LilyPond >= 2.22.0
-* LuaLaTeX >= 1.12.0
-* GNU Make >= 4.2.1
-* The Source Sans and Fredericka the Great fonts from Google Fonts
+[EES Tools](https://github.com/edition-esser-skala/ees-tools) and their dependencies. For consistent results, use the Docker image [ees-tools](https://ghcr.io/edition-esser-skala/ees-tools).
 
 
-## Build instructions
+## Further information
 
-Use `make` for building scores:
-* `make final/scores` generates all publication-ready scores in folder `final/`.
-* `make info` lists other available build targets.
-
-Alternatively, the file *master.ly* allows you to work with a text editor (e.g., Atom):
-Change the included scores file in this script to generate files *master.pdf* and *master.midi*.
-
-
-## Files
-
-* *definitions.ly* – contains general definitions
-* *Makefile* – configuration file for `make`
-* *master.ly* – allows building scores without using `make`
-* *README.md* – this file
-* *front_matter/* – LuaLaTeX files and images for typesetting front matter
-* *notes/* – LY files containing individual voices
-* *scores/* – LY files containing score definitions
+Consult the readme of [EES Tools](https://github.com/edition-esser-skala/ees-tools).
